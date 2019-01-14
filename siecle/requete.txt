@@ -1,0 +1,48 @@
+question 1:
+
+Listez les numéros d'année (filtre simple).
+//annee/numero
+
+Listez le nom des jours du deuxième mois de 1950 (conditions sur les numéros).
+//annee[numero = 1950]/semaines/semaine[numero > 4][numero < 9]/ref-jour/@ref
+//annee[numero = 1950]/mois[numero = 2]/jour/nom
+
+Listez les identifiants utilisés pour les lundis de la cinquième année (condition sur la position).
+//annee[5]/semaines/semaine/ref-jour[1]/@ref
+
+Listez le nom des mois qui débutent un lundi (avec une sous-expression XPATH).
+//annee/mois[contains(./jour[1]/nom, "lundi")]/nom
+
+
+Même question mais sans utiliser de sous-expression (/../).
+//jour[1]/nom[contains(., "lundi")]/../../nom
+
+Listez le nom des mois à 31 jours (sans compter).
+//mois/jour[31]/../nom
+
+Listez le nom des mois à 30 jours (toujours sans compter mais avec la fonction not).
+//mois[not(jour/numero > 30)]/nom
+
+Listez tous les noms sauf celui des jours (utilisez l'axe parent:: et la fonction not).
+//nom[not(parent::jour)]
+
+Listez le nom des mois qui précèdent février 1902 (utilisez l'axe preceding).
+//mois[nom = "février 1902"]/preceding::nom[(parent::mois)]
+
+Quelle est l'année du jour day12099 (utilisez l'axe ancestor et l'attribut @id)
+//jour[@id = "day12099"]/ancestor::annee/numero
+
+Listez le nom des derniers jours de chaque mois (fonction last).
+//jour[last()]/nom
+
+Trouvez le dernier jour de la dernière année (par la fonction last et pas le 31 décembre).
+//annee[last()]/mois[last()]/jour[last()]/nom
+
+Trouvez le commentaire.
+//comment()
+
+Trouvez l'instruction de traitement.
+//processing-instruction()
+
+Transformez le jour day26768 en chaîne de caractères, puis en chaîne de caractères normalisée.
+//jour[@id = "day26768"]/string(.)
