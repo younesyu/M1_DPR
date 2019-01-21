@@ -13,7 +13,6 @@ Listez les identifiants utilisés pour les lundis de la cinquième année (condi
 Listez le nom des mois qui débutent un lundi (avec une sous-expression XPATH).
 //annee/mois[contains(./jour[1]/nom, "lundi")]/nom
 
-
 Même question mais sans utiliser de sous-expression (/../).
 //jour[1]/nom[contains(., "lundi")]/../../nom
 
@@ -46,3 +45,21 @@ Trouvez l'instruction de traitement.
 
 Transformez le jour day26768 en chaîne de caractères, puis en chaîne de caractères normalisée.
 //jour[@id = "day26768"]/string(.)
+string(//jour[@id = "day26768"])
+normalize-space(string(//jour[@id = "day26768"]))
+
+
+Existe-t-il un numéro égale à 55 ?
+//numero=50
+
+Lister la plus grande année (sans utiliser le fait que les années soient ordonnées, par une condition sur le numéro et en utilisant la fonction not).
+//annee[not(numero < //annee/numero)]/numero
+
+Lister les années à 366 jours (fonction count)
+//annee[count(.//jour) = 366]/numero
+
+Combien de mois débutent un jeudi ?
+count(//mois/jour[1]/nom[contains(., "jeudi")])
+
+Combien de personnes ont le prénom « JEAN » ? (fonction contains).
+
