@@ -1,0 +1,10 @@
+
+Q1 : 
+tail -n 4 email1.txt | md5sum
+
+Q2 :
+md5sum email1Secret.txt
+
+Q3:
+
+

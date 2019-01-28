@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!ENTITY % id 
+          "id ID #REQUIRED">
+<!ENTITY % suivant 
+          "suivant ID #REQUIRED">
+
+<!ELEMENT siecle        (annee*)>
+
+<!ELEMENT annee         (numero, semaines, mois+)>
+<!ELEMENT semaines          (semaine+)>
+
+<!ELEMENT semaine          (numero, nom, ref-jour)>
+<!ELEMENT ref-jour          EMPTY>
+<!ATTLIST ref-jour %ref;>
+
+<!ELEMENT mois         (numero, nom, jour+)>
+<!ATTLIST mois %id;
+               %suivant;>
+<!ELEMENT jour          (nom,numero, numero-semaine, numero-annee)>
+<!ATTLIST jour %id;>
+
+
+<!ELEMENT numero           (#PCDATA)>
+<!ELEMENT nom           (#PCDATA)>
+<!ELEMENT numero-semaine           (#PCDATA)>
+<!ELEMENT numero-annee           (#PCDATA)>

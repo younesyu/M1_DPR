@@ -1,0 +1,15 @@
+package tpB.exo3.test;
+
+import org.junit.Test;
+
+import tpC.Aes;
+
+public class AesTest {
+
+	@Test
+	public void testSubytes() {
+		Aes aes = new Aes();
+		aes.State = {};
+	}
+
+}

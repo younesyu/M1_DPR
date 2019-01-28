@@ -1,0 +1,20 @@
+package test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+public class ChercherEltTest {
+
+	int[] test1;
+	int[] test2;
+	int[] test3;
+	
+	@Before
+	public void setUp() throws Exception {
+	}
+	
+	
+
+}

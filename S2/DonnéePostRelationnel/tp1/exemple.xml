@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet
+    href="style.css" media="screen"
+    title="Compact" type="text/css" ?>
+<!DOCTYPE stock SYSTEM "exemple.dtd">
+<stock>
+  <produit xmlns='http://www.test.fr'>
+    <nom> Découvrir XML </nom>
+    <prix monnaie="Euros"> 50 </prix>
+    <quantiteStock>5</quantiteStock>
+  </produit>
+  <produit>
+    <nom> CD </nom>
+    <quantiteStock>10</quantiteStock>
+  </produit>
+  <produit>
+  <!--Commentaire-->
+  	<nom> Amine Boudraa </nom>
+  	<prix> Pas de prix </prix>
+  	<quantiteStock>0</quantiteStock>
+  </produit>
+  <produit>
+  	<nom> Olive </nom>
+  	<prix> <![CDATA[en HTML, la balise <p> est très utile !]]>Gratuit </prix>
+  	<quantiteStock>10</quantiteStock>
+  </produit>
+</stock>

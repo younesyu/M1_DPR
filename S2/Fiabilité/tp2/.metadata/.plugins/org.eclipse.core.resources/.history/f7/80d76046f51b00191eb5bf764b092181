@@ -1,0 +1,64 @@
+package test;
+
+import java.io.FileNotFoundException;
+import java.util.Arrays;
+
+import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
+
+import tp2.Triangle;
+
+public class ReadDataTest {
+
+	Triangle triangleTest;
+
+	@Before
+	public void init() {
+		triangleTest = new Triangle();
+	}
+
+	@Test
+	public void testFichierValide() throws FileNotFoundException {
+		double[] tabAttendu = { 12, 12, 12 };
+		double[] tab = triangleTest.readData("src/test/FichierTriangle/Valide.txt");
+
+		Assert.assertTrue(Arrays.equals(tab, tabAttendu));
+	}
+
+	@Test
+	public void testFichierVide() {
+		double[] tabAttendu = { -1, -1, -1 };
+		double[] tab = triangleTest.readData("src/test/FichierTriangle/Vide.txt");
+		System.out.println(tab[0]);
+		Assert.assertTrue(Arrays.equals(tab, tabAttendu));
+	}
+
+	@Test
+	public void testFichierMauvaisNombreDeLigne() {
+		double[] tabAttendu = { -1, -1, -1 };
+		double[] tab = triangleTest.readData(("src/test/FichierTriangle/MauvaisNombreDeLigne.txt"));
+		Assert.assertTrue(Arrays.equals(tab, tabAttendu));
+	}
+
+	@Test
+	public void testFichierMauvaisFormatDeLigne() {
+		double[] tabAttendu = { -1, -1, -1 };
+		double[] tab = triangleTest.readData("src/test/FichierTriangle/LigneIncorrect.txt");
+		Assert.assertTrue(Arrays.equals(tab, tabAttendu));
+	}
+
+	@Test(expected = FileNotFoundException.class)
+	public void testFichierInexistant() throws FileNotFoundException {
+		double[] tab = triangleTest.readData("src/test/FichierTriangle/ceFichierExistePas.txt");
+	}
+
+	@Test
+	public void testFichierBinaire() {
+		double[] tabAttendu = { -1, -1, -1 };
+		double[] tab = triangleTest.readData("src/test/FichierTriangle/binaire");
+		Assert.assertTrue(Arrays.equals(tab, tabAttendu));
+	}
+
+
+}

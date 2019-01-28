@@ -1,0 +1,29 @@
+package tpC.test;
+
+import java.util.Arrays;
+
+import org.junit.Test;
+
+import junit.framework.Assert;
+import tpC.Aes;
+
+public class AesTest {
+
+	@Test
+	public void testSubytes() {
+		Aes aes = new Aes();
+		aes.State = new byte[]{0,1,2,3,0,1,2,3,0,1,2,3,0,1,2,3};
+		
+		aes.afficher_le_bloc(aes.State);
+		aes.SubBytes();
+		
+		byte[] resultat = {0x63, 0x7c, 0x77, 0x7B,
+					0x63, 0x7c, 0x77, 0x7B,
+					0x63, 0x7c, 0x77, 0x7B,
+					0x63, 0x7c, 0x77, 0x7B};
+		
+		aes.afficher_le_bloc(aes.State);
+		Assert.assertTrue(Arrays.equals(resultat, aes.State));
+	}
+
+}

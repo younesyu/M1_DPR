@@ -1,0 +1,21 @@
+package tpB.exo3.test;
+
+import java.util.Arrays;
+
+import org.junit.Test;
+
+import junit.framework.Assert;
+import tpC.Aes;
+
+public class AesTest {
+
+	@Test
+	public void testSubytes() {
+		Aes aes = new Aes();
+		aes.State = new byte[]{0,0,0,0,1,1,1,1,2,2,2,2,3,3,3,3};
+		
+		aes.SubBytes();
+		Assert.assertTrue(Arrays.equals({0x63, 0x63, 0x63, 0x63, a2));
+	}
+
+}
