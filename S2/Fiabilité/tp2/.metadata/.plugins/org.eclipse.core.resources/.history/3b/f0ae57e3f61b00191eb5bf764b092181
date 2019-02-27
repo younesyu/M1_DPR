@@ -1,8 +1,0 @@
-package tp2;
-
-public class Recherche {
-
-	public static int chercherElt(int val, int[] tab) {
-		
-	}
-}

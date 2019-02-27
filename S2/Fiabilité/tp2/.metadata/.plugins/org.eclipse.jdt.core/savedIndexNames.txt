@@ -1,4 +1,0 @@
-INDEX VERSION 1.130+D:\GoogleDrive\Master\S2\Fiabilité\tp2\.metadata\.plugins\org.eclipse.jdt.core
-1460973068.index
-344950780.index
-2264988070.index

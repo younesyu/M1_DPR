@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.io.FileInputStream"/>
-<fullyQualifiedTypeName name="tpB.exo3.test.AesTest"/>
-<fullyQualifiedTypeName name="java.lang.Byte"/>
-<fullyQualifiedTypeName name="junit.framework.Assert"/>
-<fullyQualifiedTypeName name="java.util.Arrays"/>
-<fullyQualifiedTypeName name="org.junit.Assert"/>
-</qualifiedTypeNameHistroy>
