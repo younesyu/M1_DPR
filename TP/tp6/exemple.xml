@@ -1,0 +1,9 @@
+<personne
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="exemple.xsd"
+    >
+
+    <nom>  Jean Durand  </nom>
+    <age> 30 </age>
+
+</personne>

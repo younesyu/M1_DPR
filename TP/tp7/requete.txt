@@ -1,0 +1,20 @@
+L'élément associé à l'attribut id de valeur day673 est-il un jour ?
+"//*[@id='day673'] instance of element(jour)" >> true
+
+
+L'attribut suivant du quatrième jour du siècle est-il un attribut ?
+"//jour[ count(preceding::jour) = 3 ]/@suivant instance of attribute()" >> true
+
+Listez les noms des jours de février 1950 ainsi que les lundis du siècle (séquence à deux sous-parties). Vérifier l'ordre du résultat.
+"(//mois[@id = 'mois-2-1950']/jour/nom, //jour/nom[contains(., 'lundi')])"
+
+Listez les numéros des derniers jours de chaque mois (avec une boucle for XPATH sur les jours).
+Même question, mais limitez le numéro à 30 (avec un test XPATH if).
+"for $numero in //mois/jour[last()]/numero return (if ($numero = 30) then $numero else ()) "
+
+Comptez les années pour lesquelles il existe un mois à 28 jours (avec la clause XPATH some).
+<xsl:copy-of select="//annee[some $m in (./mois/jour[last()]/numero) satisfies ($m = 28)]/numero" />
+
+Comptez les années pour lesquelles tous les mois ont plus de 28 jours (avec la clause XPATH every).
+<xsl:copy-of select="//annee[every $m in (./mois/jour[last()]/numero) satisfies ($m > 28)]/numero" />
+

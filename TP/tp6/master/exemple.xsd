@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="master" type="typeMaster" />
+  
+  <xs:complexType name="typeMaster">
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="intervenant"/>
+        <xs:element maxOccurs="unbounded" ref="parcours"/>
+        <xs:element maxOccurs="unbounded" ref="semestre"/>
+        <xs:element maxOccurs="unbounded" ref="unite"/>
+      </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="typeParcours">
+      <xs:sequence>
+        <xs:element ref="nom"/>
+        <xs:element maxOccurs="unbounded" ref="responsable"/>
+        <xs:element ref="description"/>
+        <xs:element maxOccurs="unbounded" ref="debouche"/>
+        <xs:element maxOccurs="unbounded" ref="ref-semestre"/>
+      </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="typeUnite">
+      <xs:sequence>
+        <xs:element ref="nom"/>
+        <xs:element ref="credit"/>
+        <xs:element ref="resume"/>
+        <xs:element ref="plan"/>
+        <xs:element ref="lieu"/>
+        <xs:element maxOccurs="unbounded" ref="ref-intervenant"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+    
+    <xs:complexType name="ueluminy">
+      <xs:complexContent>
+      <xs:restriction base="typeUnite">
+         <xs:sequence>
+        	<xs:element ref="nom"/>
+           	<xs:element ref="credit"/>
+	        <xs:element ref="resume"/>
+	        <xs:element ref="plan"/>
+            <xs:element name="lieu" type="xs:string" fixed="Luminy"/>
+            <xs:element maxOccurs="unbounded" ref="ref-intervenant"/>
+	      </xs:sequence>
+	      <xs:attribute name="id" use="required" type="xs:NCName"/>
+	      </xs:restriction>
+	   </xs:complexContent>
+    </xs:complexType>
+    
+  <xs:simpleType name="mail"> 
+    <xs:restriction base="xs:string"> 
+      <xs:pattern value="[^@]+@[^\.]+\..+"/> 
+    </xs:restriction> 
+  </xs:simpleType> 
+  
+  <xs:simpleType name="typeSite"> 
+    <xs:restriction base="xs:string"> 
+    	<xs:pattern value="(http(s)?://)?www.[A-Za-z0-9]+(.[A-Za-z])*.[A-Za-z](/[A-Za-z0-9.])*(#[A-Za-z0-9])?"/>
+     </xs:restriction> 
+  </xs:simpleType> 
+  
+  <xs:element name="intervenant">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nom"/>
+        <xs:element ref="mail"/>
+        <xs:element ref="site"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mail" type="mail"/>
+  <xs:element name="site" type="typeSite"/>
+  <xs:element name="parcours" type="typeParcours"/>
+  <xs:element name="responsable">
+    <xs:complexType>
+      <xs:attribute name="ref" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="description" type="xs:string"/>
+  <xs:element name="debouche" type="xs:string"/>
+  <xs:element name="ref-semestre">
+    <xs:complexType>
+      <xs:attribute name="ref" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="semestre">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="bloc-unite"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="bloc-unite">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="ref-unite"/>
+        <xs:element ref="role"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ref-unite">
+    <xs:complexType>
+      <xs:attribute name="ref" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  
+  <xs:simpleType name="typeRole">
+   	<xs:restriction base="xs:string">
+   		<xs:enumeration value='obligatoire'/>
+   		<xs:enumeration value='option'/>
+	</xs:restriction>
+  </xs:simpleType>
+
+  <xs:element name="role" type="typeRole"/>
+  
+  <xs:element name="unite" type="typeUnite"/>
+  
+  <xs:element name="credit" type="xs:integer"/>
+  <xs:element name="resume" type="xs:string"/>
+  <xs:element name="plan">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="chapitre"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="chapitre" type="xs:string"/>
+  <xs:element name="lieu" type="xs:NCName"/>
+  <xs:element name="ref-intervenant">
+    <xs:complexType>
+      <xs:attribute name="ref" use="required" type="xs:NCName"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="nom" type="xs:string"/>
+</xs:schema>

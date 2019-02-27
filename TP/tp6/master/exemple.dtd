@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!ENTITY campus "Luminy">
+<!ENTITY campus2 "Saint-Jerome">
+
+<!ENTITY ueObligatoire "Obligatoire">
+<!ENTITY ueOptionnelle "Option">
+
+<!ENTITY % id 
+          "id ID #REQUIRED">
+
+<!ENTITY % ref 
+          "ref IDREF #REQUIRED">
+
+<!ELEMENT master        (intervenant*, parcours*, semestre*, unite*)>
+
+<!ELEMENT parcours         (nom, responsable+, description, debouche*, ref-semestre*)>
+<!ELEMENT responsable           EMPTY>
+<!ATTLIST responsable %ref;>
+<!ELEMENT debouche           (#PCDATA)>
+<!ELEMENT description           (#PCDATA)>
+<!ELEMENT ref-semestre EMPTY>
+<!ATTLIST ref-semestre ref IDREF #REQUIRED>
+
+<!ELEMENT semestre         (bloc-unite*) >
+<!ELEMENT bloc-unite (ref-unite, role)>
+<!ELEMENT ref-unite EMPTY>
+<!ELEMENT role  (#PCDATA)>
+<!ATTLIST ref-unite %ref;>
+<!ATTLIST semestre %id;>
+
+<!ELEMENT unite         (nom, credit, resume, plan, lieu, ref-intervenant+)>
+<!ATTLIST unite %id;>
+<!ELEMENT nom           (#PCDATA)>
+<!ELEMENT credit        (#PCDATA)>
+<!ELEMENT resume        (#PCDATA)>
+<!ELEMENT plan          (chapitre*)>
+<!ELEMENT lieu          (#PCDATA)>
+<!ELEMENT ref-intervenant EMPTY>
+<!ATTLIST ref-intervenant %ref;>
+
+<!ELEMENT intervenant       (nom, mail, site)>
+<!ATTLIST intervenant %id;>
+
+<!ELEMENT mail      (#PCDATA)>
+<!ELEMENT site      (#PCDATA)>
+
+<!ELEMENT chapitre      (#PCDATA)>
