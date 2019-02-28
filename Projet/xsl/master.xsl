@@ -5,6 +5,7 @@
 <xsl:include href="parcours.xsl" />
 <xsl:include href="intervenants.xsl" />
 <xsl:include href="unites.xsl" />
+<xsl:include href="menu.xsl" />
 
 <xsl:output
    method="html"                   
@@ -19,11 +20,12 @@
 	<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
     <html>
     <head>
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
 		<meta charset="utf-8"/>
       <title>Liste des enseignements</title>
     </head>
     <body>
-      
+      <xsl:copy-of select="$menu"/>
     </body>
     </html>
 
