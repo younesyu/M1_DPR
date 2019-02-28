@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE master SYSTEM "exemple.dtd">
+<!DOCTYPE master SYSTEM "master.dtd">
 
-<master>
+<master xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  	xsi:noNamespaceSchemaLocation="master.xsd" >
 
 	<intervenant id='I1'>
 		<nom>Molin Dal</nom>
@@ -109,27 +110,27 @@
 	<semestre id='S1'>
 		<bloc-unite>
 			<ref-unite ref='S51AN1M1' />
-			<role>&ueObligatoire;</role>
+			<role>Obligatoire</role>
 		</bloc-unite>
 		<bloc-unite>
 			<ref-unite ref='S51IN1M2' />
-			<role>&ueObligatoire;</role>
+			<role>Obligatoire</role>
 		</bloc-unite>
 		<bloc-unite>
 			<ref-unite ref='S51IN1M3' />
-			<role>&ueObligatoire;</role>
+			<role>Obligatoire</role>
 		</bloc-unite>
 		<bloc-unite>
 			<ref-unite ref='S51IN1M4' />
-			<role>&ueObligatoire;</role>
+			<role>Obligatoire</role>
 		</bloc-unite>
 		<bloc-unite>
 			<ref-unite ref='S51IN1M5' />
-			<role>&ueObligatoire;</role>
+			<role>Obligatoire</role>
 		</bloc-unite>
 		<bloc-unite>
 			<ref-unite ref='S51IN1M6' />
-			<role>&ueObligatoire;</role>
+			<role>Obligatoire</role>
 		</bloc-unite>
 	</semestre>
 
@@ -137,22 +138,22 @@
 	<semestre id='S2ILD'>
 		<bloc-unite>
 			<ref-unite ref='S51IN2M03' />
-			<role>option</role>
+			<role>Option</role>
 		</bloc-unite>
 		<bloc-unite>
 			<ref-unite ref='S51IN2C2' />
-			<role>obligatoire</role>
+			<role>Obligatoire</role>
 		</bloc-unite>
 	</semestre>
 
 	<semestre id='S2FSI'>
 		<bloc-unite>
 			<ref-unite ref='S51IN2M03' />
-			<role>option</role>
+			<role>Option</role>
 		</bloc-unite>
 		<bloc-unite>
 			<ref-unite ref='S51IN2C2' />
-			<role>obligatoire</role>
+			<role>Obligatoire</role>
 		</bloc-unite>
 	</semestre>
 
@@ -180,7 +181,7 @@
 			<chapitre>Compréhension Ecrite</chapitre>
 			<chapitre>Compréhension Orale</chapitre>
 		</plan>
-		<lieu>&campus;</lieu>
+		<lieu>Luminy</lieu>
 		<ref-intervenant ref='I1' />
 	</unite>
 
@@ -192,7 +193,7 @@
 			<chapitre>Classe P et NP</chapitre>
 			<chapitre>Problème NP-complet</chapitre>
 		</plan>
-		<lieu>&campus;</lieu>
+		<lieu>Luminy</lieu>
 		<ref-intervenant ref='I9' />
 	</unite>
 
@@ -205,7 +206,7 @@
 			<chapitre>Classification</chapitre>
 			<chapitre>Régression</chapitre>
 		</plan>
-		<lieu>&campus;</lieu>
+		<lieu>Luminy</lieu>
 		<ref-intervenant ref='I8' />
 	</unite>
 
@@ -217,7 +218,7 @@
 			<chapitre>Thread</chapitre>
 			<chapitre>Indépendance et atomicité</chapitre>
 		</plan>
-		<lieu>&campus;</lieu>
+		<lieu>Luminy</lieu>
 		<ref-intervenant ref='I6' />
 	</unite>
 
@@ -232,7 +233,7 @@
 			<chapitre>Couche transport</chapitre>
 			<chapitre>Couche Application</chapitre>
 		</plan>
-		<lieu>&campus;</lieu>
+		<lieu>Luminy</lieu>
 		<ref-intervenant ref='I2' />
 	</unite>
 
@@ -244,7 +245,7 @@
 			<chapitre>Programmation linéaire</chapitre>
 			<chapitre>Algorithme de flot</chapitre>
 		</plan>
-		<lieu>&campus;</lieu>
+		<lieu>Luminy</lieu>
 		<ref-intervenant ref='I7' />
 	</unite>
 
@@ -255,7 +256,7 @@
 		<plan>
 			<chapitre>Projet</chapitre>
 		</plan>
-		<lieu>&campus;</lieu>
+		<lieu>Luminy</lieu>
 		<ref-intervenant ref='I2' />
 	</unite>
 
@@ -268,7 +269,7 @@
 			<chapitre>XPATH</chapitre>
 			<chapitre>XSL</chapitre>
 		</plan>
-		<lieu>&campus;</lieu>
+		<lieu>Luminy</lieu>
 		<ref-intervenant ref='I10' />
 		<ref-intervenant ref='I1' />
 	</unite>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
-  <xs:element name="master" type="typeMaster" />
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" elementFormDefault="qualified">
   
   <xs:complexType name="typeMaster">
       <xs:sequence>
@@ -10,6 +9,43 @@
         <xs:element maxOccurs="unbounded" ref="unite"/>
       </xs:sequence>
     </xs:complexType>
+
+  <xs:element name="master" type="typeMaster" />
+
+	<xs:complexType name="typeObjet">
+      <xs:sequence>
+        <xs:element ref="nom" />
+      </xs:sequence>
+	<xs:attribute name="id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+
+	<xs:element name="objet" type="typeObjet" abstract="true"/>
+
+	<xs:complexType name="typeIntervenant">
+      <xs:sequence>
+        <xs:element ref="nom"/>
+        <xs:element ref="mail"/>
+        <xs:element ref="site"/>
+      </xs:sequence>
+		<xs:attribute name="id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+
+	<xs:complexType name="personne">
+   <xs:complexContent>
+      <xs:extension base="typeIntervenant">
+         <xs:sequence>
+           <xs:element name="adresse" type="xs:string"/>
+         </xs:sequence>
+      </xs:extension>
+   </xs:complexContent>
+	</xs:complexType>
+
+  <xs:element name="intervenant" type="typeIntervenant">
+		<xs:unique name="typeIntervenant">
+      		<xs:selector xpath="."/>    
+      		<xs:field xpath="nom"/>          
+   		</xs:unique>
+	</xs:element>
     
     <xs:complexType name="typeParcours">
       <xs:sequence>
@@ -18,9 +54,22 @@
         <xs:element ref="description"/>
         <xs:element maxOccurs="unbounded" ref="debouche"/>
         <xs:element maxOccurs="unbounded" ref="ref-semestre"/>
+		<xs:any minOccurs="0"/>
       </xs:sequence>
     </xs:complexType>
+
+  <xs:element name="parcours" type="typeParcours"/>
     
+ 	<xs:complexType name="typeSemestre">
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="bloc-unite"/>
+      </xs:sequence>
+      <xs:attribute name="id" use="required" type="xs:NCName"/>
+    </xs:complexType>
+
+	<xs:element name="semestre" type="typeSemestre" />
+
+
     <xs:complexType name="typeUnite">
       <xs:sequence>
         <xs:element ref="nom"/>
@@ -29,6 +78,7 @@
         <xs:element ref="plan"/>
         <xs:element ref="lieu"/>
         <xs:element maxOccurs="unbounded" ref="ref-intervenant"/>
+		<xs:any minOccurs="0"/>
       </xs:sequence>
       <xs:attribute name="id" use="required" type="xs:NCName"/>
     </xs:complexType>
@@ -48,6 +98,8 @@
 	      </xs:restriction>
 	   </xs:complexContent>
     </xs:complexType>
+
+	<xs:element name="unite" type="typeUnite"/>
     
   <xs:simpleType name="mail"> 
     <xs:restriction base="xs:string"> 
@@ -60,40 +112,27 @@
     	<xs:pattern value="(http(s)?://)?www.[A-Za-z0-9]+(.[A-Za-z])*.[A-Za-z](/[A-Za-z0-9.])*(#[A-Za-z0-9])?"/>
      </xs:restriction> 
   </xs:simpleType> 
-  
-  <xs:element name="intervenant">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element ref="nom"/>
-        <xs:element ref="mail"/>
-        <xs:element ref="site"/>
-      </xs:sequence>
-      <xs:attribute name="id" use="required" type="xs:NCName"/>
-    </xs:complexType>
-  </xs:element>
+
   <xs:element name="mail" type="mail"/>
-  <xs:element name="site" type="typeSite"/>
-  <xs:element name="parcours" type="typeParcours"/>
+
+  <xs:element name="site" type="xs:string"/>
+
   <xs:element name="responsable">
     <xs:complexType>
       <xs:attribute name="ref" use="required" type="xs:NCName"/>
     </xs:complexType>
   </xs:element>
+
   <xs:element name="description" type="xs:string"/>
-  <xs:element name="debouche" type="xs:string"/>
+
+  <xs:element name="debouche" type="xs:normalizedString"/>
+
   <xs:element name="ref-semestre">
     <xs:complexType>
       <xs:attribute name="ref" use="required" type="xs:NCName"/>
     </xs:complexType>
   </xs:element>
-  <xs:element name="semestre">
-    <xs:complexType>
-      <xs:sequence>
-        <xs:element minOccurs="0" maxOccurs="unbounded" ref="bloc-unite"/>
-      </xs:sequence>
-      <xs:attribute name="id" use="required" type="xs:NCName"/>
-    </xs:complexType>
-  </xs:element>
+
   <xs:element name="bloc-unite">
     <xs:complexType>
       <xs:sequence>
@@ -102,6 +141,7 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
+
   <xs:element name="ref-unite">
     <xs:complexType>
       <xs:attribute name="ref" use="required" type="xs:NCName"/>
@@ -110,17 +150,17 @@
   
   <xs:simpleType name="typeRole">
    	<xs:restriction base="xs:string">
-   		<xs:enumeration value='obligatoire'/>
-   		<xs:enumeration value='option'/>
+   		<xs:enumeration value='Obligatoire'/>
+   		<xs:enumeration value='Option'/>
 	</xs:restriction>
   </xs:simpleType>
 
-  <xs:element name="role" type="typeRole"/>
-  
-  <xs:element name="unite" type="typeUnite"/>
+  <xs:element name="role" type="xs:token"/>
   
   <xs:element name="credit" type="xs:integer"/>
+
   <xs:element name="resume" type="xs:string"/>
+
   <xs:element name="plan">
     <xs:complexType>
       <xs:sequence>
@@ -128,12 +168,17 @@
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="chapitre" type="xs:string"/>
-  <xs:element name="lieu" type="xs:NCName"/>
+
+  <xs:element name="chapitre" type="xs:normalizedString"/>
+
+  <xs:element name="lieu" type="xs:token"/>
+
   <xs:element name="ref-intervenant">
     <xs:complexType>
       <xs:attribute name="ref" use="required" type="xs:NCName"/>
     </xs:complexType>
   </xs:element>
-  <xs:element name="nom" type="xs:string"/>
+
+  <xs:element name="nom" type="xs:normalizedString"/>
+
 </xs:schema>
