@@ -151,10 +151,6 @@
 			<ref-unite ref='S51IN2M03' />
 			<role>Option</role>
 		</bloc-unite>
-		<bloc-unite>
-			<ref-unite ref='S51IN2C2' />
-			<role>Obligatoire</role>
-		</bloc-unite>
 	</semestre>
 
 	<semestre id='S3ILD'>

@@ -15,7 +15,7 @@
 <xsl:template name="mesParcours">
 
 <xsl:for-each select="//parcours">
-    <xsl:document href="./out/parcours/{./nom}.html">
+    <xsl:document href="./parcours/{./nom}.html">
 	<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 	<html><head><meta charset="utf-8"/></head><body>
    <h2>

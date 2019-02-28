@@ -12,7 +12,7 @@
 
 <xsl:template name="unitesGlobal">
 
-<xsl:document href="./out/unite.html">
+<xsl:document href="./unite.html">
 	<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 	<html><head><meta charset="utf-8"/></head><body>
         <h1>Liste des unités d'enseignements</h1>
@@ -38,7 +38,7 @@
 <xsl:template name="unitesParFichier">
 
         <xsl:for-each select="//unite">      
-            <xsl:document href="./out/unites/{./nom}.html">
+            <xsl:document href="./unites/{./nom}.html">
 		<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 		<html><head><meta charset="utf-8"/></head><body>
               <h2>
@@ -50,6 +50,16 @@
               lieu : <xsl:value-of select="lieu"/>  <br />  
               intervenants : <xsl:apply-templates select="ref-intervenant" /> 
             </p>
+			<p> Cette UE apparait dans le ou les parcour(s) suivant :</p>
+			<xsl:variable name="idUe" select="@id" /> 
+			<p> Variable : <xsl:value-of select="$idUe"/> </p>
+			<xsl:variable name="idSemestre" select="//ref-unite[@ref = $idUe ]/../../@id" />
+			<xsl:variable name="parcours" select="//ref-semestre[./@ref = $idSemestre ]/.." />
+
+			<xsl:for-each select="$parcours">
+			<p><a href="../parcours/{./nom}.html"><xsl:value-of select="./nom"/></a></p>
+			</xsl:for-each>
+		
 		</body></html>
             </xsl:document>
         </xsl:for-each>

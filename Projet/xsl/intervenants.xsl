@@ -12,7 +12,7 @@
 
 <xsl:template name="intervenantsGlobal" mode="fichierGlobal">
 
-	<xsl:document href="./out/intervenants.html">
+	<xsl:document href="./intervenants.html">
 	<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 	<html><head><meta charset="utf-8"/></head><body>
       <h1>Liste des intervenants</h1>
@@ -35,7 +35,7 @@
 <xsl:template name="intervenantsParFichier">
 
       <xsl:for-each select="//intervenant">      
-            <xsl:document href="./out/intervenants/{./nom}.html">
+            <xsl:document href="intervenants/{./nom}.html">
 			<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 			<html><head><meta charset="utf-8"/></head><body>
               <h2>
@@ -46,12 +46,19 @@
                 site : <xsl:value-of select="site"/>   <br /> 
               </p>
 
-				<h3> Liste dess UE enseignés : </h3>
 				<xsl:variable name="nomProf" select="nom" /> 
+				<h3> Liste des UE enseignés : </h3>
 				<xsl:variable name="unites" select="//unite[id(./ref-intervenant/@ref)/nom = $nomProf]" />
 
 				<xsl:for-each select="$unites">
-					<p><xsl:value-of select="./nom"/></p>
+					<p><a href="../unites/{./nom}.html"><xsl:value-of select="./nom"/></a></p>
+				</xsl:for-each>
+
+				<h3> Responsable du ou des parcour(s) : </h3>
+				<xsl:variable name="parcours" select="//parcours[id(./responsable/@ref)/nom = $nomProf]" />
+
+				<xsl:for-each select="$parcours">
+					<p><a href="../parcours/{./nom}.html"><xsl:value-of select="./nom"/></a></p>
 
 				</xsl:for-each>
 				
