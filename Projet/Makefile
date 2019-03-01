@@ -8,21 +8,21 @@ xsd :
 
 tidy :
 	
-	tidy -e www/index.html
+	./tidy -e www/index.html
 	
-	tidy -e www/ues/*.html
+	./tidy -e www/unites/*.html
 	
-	tidy -e www/intervenants/*.html
+	./tidy -e www/intervenants/*.html
 	
-	tidy -e www/parcours/*.html
+	./tidy -e www/parcours/*.html
 
 web : 
-	mkdir -p www
-	java -jar saxon9he.jar -xsl:xsl/master.xsl master.xml
+	mkdir -p xsl/www
+	java -jar saxon.jar -xsl:xsl/master.xsl master.xml
 	
 
 xq : 
-	java -cp saxon9he.jar net.sf.saxon.Query "-q:xq.txt" > www/xq.html
+	java -cp saxon.jar net.sf.saxon.Query "-q:xq.txt" > www/xq.html
 
 clean : 
 	rm www/*.html
