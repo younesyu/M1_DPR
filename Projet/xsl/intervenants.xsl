@@ -10,6 +10,13 @@
    xml-declaration="yes"                    
    />
 
+<xsl:key
+    	name="unite"
+    	match="//unite"
+    	use="./ref-intervenant/@ref"
+/>	
+
+
 <xsl:template name="intervenantsGlobal" mode="fichierGlobal">
 
 	<xsl:document href="./intervenants.html">
@@ -48,12 +55,16 @@
 
 				<xsl:variable name="nomProf" select="nom" /> 
 				<h3> Liste des UE enseignés : </h3>
-				<xsl:variable name="unites" select="//unite[id(./ref-intervenant/@ref)/nom = $nomProf]" />
+				<!-- <xsl:variable name="unites" select="//unite[id(./ref-intervenant/@ref)/nom = $nomProf]" />
 
 				<xsl:for-each select="$unites">
 					<p><a href="../unites/{./nom}.html"><xsl:value-of select="./nom"/></a></p>
-				</xsl:for-each>
+				</xsl:for-each> 
+			PREMIERE VERSION-->
 
+				<xsl:for-each select="key('unite', @id)">
+				      <p><a href="../unites/{./nom}.html"><xsl:value-of select="./nom"/></a></p>
+				</xsl:for-each>
 				<h3> Responsable du ou des parcour(s) : </h3>
 				<xsl:variable name="parcours" select="//parcours[id(./responsable/@ref)/nom = $nomProf]" />
 

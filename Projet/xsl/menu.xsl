@@ -11,10 +11,10 @@
    />
 
 <xsl:variable name="menu">
-   <ul>
-  	<li><a class="active" href="index.html">Accueil</a></li>
-  	<li><a href="intervenants.html">Liste Intervenant</a></li>
-  	<li><a href="unites.html">Liste des UE</a></li>
+   <ul id="ulMenu">
+  	<li id="liMenu"><a class="active" href="index.html">Accueil</a></li>
+  	<li id="liMenu"><a href="intervenants.html">Liste Intervenant</a></li>
+  	<li id="liMenu"><a href="unites.html">Liste des UE</a></li>
 	</ul>
 </xsl:variable>
 

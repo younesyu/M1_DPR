@@ -27,7 +27,7 @@
       Débouchés : <liste>
         <ul>
             <xsl:for-each select="./debouche">      
-                <li><p><xsl:value-of select="."/></p></li>
+                <li><p><xsl:copy-of select="."/></p></li>
             </xsl:for-each>
         </ul>
         </liste>
