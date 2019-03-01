@@ -1,13 +1,12 @@
-  <xsl:stylesheet
+<xsl:stylesheet
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    version="1.0">
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    version="2.0">
 
 <xsl:output
-   method="html"                   
-   version="1.0"                  
+   method="xhtml"                                    
    encoding="utf-8"             
-   indent="yes"                          
-   xml-declaration="yes"                    
+   indent="yes"                                             
    />
 
 <xsl:key
@@ -17,9 +16,9 @@
 />	
 
 
-<xsl:template name="intervenantsGlobal" mode="fichierGlobal">
+<xsl:template name="intervenantsGlobal">
 
-	<xsl:document href="./intervenants.html">
+	<xsl:result-document href="./intervenants.html">
 	<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 	<html>
   <head>
@@ -34,7 +33,7 @@
       <div class="container">
         <xsl:apply-templates select="//intervenant" />
         <xsl:for-each select="//intervenant">      
-              <xsl:document href="./intervenants/{./nom}.html">
+              <xsl:result-document href="./intervenants/{./nom}.html">
                 <div class="intervenant">
                   <h2>
                     <xsl:value-of select="nom"/>
@@ -43,18 +42,18 @@
                     <xsl:value-of select="mail"/>  <br />   
                   </p>
                 </div>
-              </xsl:document>
+              </xsl:result-document>
           </xsl:for-each>
       </div>
 	</body>
   </html>
-  </xsl:document>
+  </xsl:result-document>
 </xsl:template>
 
 <xsl:template name="intervenantsParFichier">
 
       <xsl:for-each select="//intervenant">      
-            <xsl:document href="intervenants/{./nom}.html">
+            <xsl:result-document href="intervenants/{./nom}.html">
 			<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 			<html>
       <head>
@@ -99,7 +98,7 @@
 				
           </div>
 				</body></html>
-            </xsl:document>
+            </xsl:result-document>
         </xsl:for-each>
 
 </xsl:template>

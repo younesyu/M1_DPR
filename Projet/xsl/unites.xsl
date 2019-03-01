@@ -1,18 +1,17 @@
 <xsl:stylesheet
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    version="1.0">
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    version="2.0">
 
 <xsl:output
-   method="html"                   
-   version="1.0"                  
+   method="xhtml"                                   
    encoding="utf-8"             
-   indent="yes"                          
-   xml-declaration="yes"                    
+   indent="yes"                                           
    />
 
 <xsl:template name="unitesGlobal">
 
-<xsl:document href="./unites.html">
+<xsl:result-document href="./unites.html">
 	<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 	<html>
   <head>
@@ -26,7 +25,7 @@
     <div class="container">
     <xsl:apply-templates select="//unite" />
     <xsl:for-each select="//unite">      
-        <xsl:document href="./unites/{./nom}.html">
+        <xsl:result-document href="./unites/{./nom}.html">
           <div class="unite">
           <h2>
             <xsl:value-of select="nom"/>
@@ -38,18 +37,18 @@
           intervenants : <xsl:apply-templates select="ref-intervenant" /> 
         </p>
         </div>
-        </xsl:document>
+        </xsl:result-document>
         </xsl:for-each>
         </div>
 	</body></html>
-      </xsl:document>
+      </xsl:result-document>
 
 </xsl:template>
 
 <xsl:template name="unitesParFichier">
 
         <xsl:for-each select="//unite">      
-            <xsl:document href="./unites/{./nom}.html">
+            <xsl:result-document href="./unites/{./nom}.html">
 		<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 		<html>
     <head>
@@ -94,7 +93,7 @@
       </div>
 		
 		</body></html>
-            </xsl:document>
+            </xsl:result-document>
         </xsl:for-each>
 
 </xsl:template>

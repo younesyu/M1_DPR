@@ -1,16 +1,16 @@
 <xsl:stylesheet
-	xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    version="1.0">
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    version="2.0">
+
 	<xsl:include href="parcours.xsl" />
 	<xsl:include href="intervenants.xsl" />
 	<xsl:include href="unites.xsl" />
 	<xsl:include href="menu.xsl" />
 	<xsl:output
-   method="html"                   
-   version="1.0"                  
+   method="xhtml"                                   
    encoding="utf-8"             
-   indent="yes"                          
-   xml-declaration="yes"                    
+   indent="yes"                                             
    />
 	<xsl:template match="/">
 		<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
