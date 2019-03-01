@@ -6,6 +6,10 @@ dtd :
 xsd : 
 	xmllint --schema master.xsd master.xml --noout
 
+web : 
+	mkdir -p xsl/www
+	java -jar saxon.jar -xsl:xsl/master.xsl master.xml
+
 tidy :
 	
 	./tidy -e www/index.html
@@ -15,10 +19,6 @@ tidy :
 	./tidy -e www/intervenants/*.html
 	
 	./tidy -e www/parcours/*.html
-
-web : 
-	mkdir -p xsl/www
-	java -jar saxon.jar -xsl:xsl/master.xsl master.xml
 	
 
 xq : 
@@ -36,11 +36,9 @@ all:
  
 	$(MAKE) xsd
 	
+	$(MAKE) web
 
 	$(MAKE) tidy
-	
-
-	$(MAKE) web
 	
 
 	$(MAKE) xq
