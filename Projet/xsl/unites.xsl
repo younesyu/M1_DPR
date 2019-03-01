@@ -12,7 +12,7 @@
 
 <xsl:template name="unitesGlobal">
 
-<xsl:document href="./unite.html">
+<xsl:document href="./unites.html">
 	<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 	<html><head><meta charset="utf-8"/></head><body>
         <h1>Liste des unités d'enseignements</h1>
@@ -48,11 +48,14 @@
               crédits : <xsl:value-of select="credit"/>  <br />   
               résumé : <xsl:value-of select="resume"/>   <br />   
               lieu : <xsl:value-of select="lieu"/>  <br />  
-              intervenants : <xsl:apply-templates select="ref-intervenant" /> 
+              intervenants : 
             </p>
+
+            <xsl:for-each select="./ref-intervenant">
+              <p><a href="../intervenants/{id(./@ref)/nom}.html"><xsl:value-of select="id(./@ref)/nom"/> </a></p>
+             </xsl:for-each>
 			<p> Cette UE apparait dans le ou les parcour(s) suivant :</p>
 			<xsl:variable name="idUe" select="@id" /> 
-			<p> Variable : <xsl:value-of select="$idUe"/> </p>
 			<xsl:variable name="idSemestre" select="//ref-unite[@ref = $idUe ]/../../@id" />
 			<xsl:variable name="parcours" select="//ref-semestre[./@ref = $idSemestre ]/.." />
 
@@ -80,8 +83,7 @@
   </xsl:template>
 
   <xsl:template match="ref-intervenant">
-   <!-- <a href="intervenant.html#{@ref}"><xsl:value-of select="//intervenant[@id = current()/@ref]/nom"/> </a>&#xA0; -->
-   <a href="../intervenants/{id(@ref)/nom}.html"><xsl:value-of select="id(@ref)/nom"/> </a>&#xA0;
+   <a href="intervenants/{id(@ref)/nom}.html"><xsl:value-of select="id(@ref)/nom"/> </a>&#xA0;
   </xsl:template>
 
 </xsl:stylesheet>

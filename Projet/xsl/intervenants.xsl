@@ -24,17 +24,6 @@
 	<html><head><meta charset="utf-8"/></head><body>
       <h1>Liste des intervenants</h1>
       <xsl:apply-templates select="//intervenant" />
-      <xsl:for-each select="//intervenant">      
-            <xsl:document href="./intervenants/{./nom}.html">
-              <h2>
-                <xsl:value-of select="nom"/>
-              </h2>
-              <p>
-                mail : <xsl:value-of select="mail"/>  <br />   
-                site : <xsl:value-of select="site"/>   <br /> 
-              </p>
-            </xsl:document>
-        </xsl:for-each>
 	</body></html>
     </xsl:document>
 </xsl:template>
@@ -84,7 +73,7 @@
     <xsl:value-of select="nom"/>
     </h2>
     <p>
-      mail : <xsl:value-of select="mail"/>  <br />   
+      mmaaaa smail : <xsl:value-of select="mail"/>  <br />   
       site : <xsl:value-of select="site"/>   <br /> 
     </p>
   </xsl:template>

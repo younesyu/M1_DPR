@@ -76,8 +76,8 @@
         <xs:element ref="credit"/>
         <xs:element ref="resume"/>
         <xs:element ref="plan"/>
-        <xs:element ref="lieu"/>
-        <xs:element maxOccurs="unbounded" ref="ref-intervenant"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="lieu"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ref-intervenant"/>
 		<xs:any minOccurs="0"/>
       </xs:sequence>
       <xs:attribute name="id" use="required" type="xs:NCName"/>
@@ -123,7 +123,14 @@
     </xs:complexType>
   </xs:element>
 
-  <xs:element name="description" type="xs:string"/>
+  <xs:element name="description">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="p"/>
+        <xs:element minOccurs="0" ref="ul"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
 
   <xs:element name="debouche" type="xs:normalizedString"/>
 
@@ -159,12 +166,29 @@
   
   <xs:element name="credit" type="xs:integer"/>
 
-  <xs:element name="resume" type="xs:string"/>
+  <xs:element name="resume">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="p"/>
+        <xs:element ref="ul"/>
+        <xs:element ref="ol"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
 
-  <xs:element name="plan">
+  <!-- <xs:element name="plan">
     <xs:complexType>
       <xs:sequence>
         <xs:element maxOccurs="unbounded" ref="chapitre"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element> -->
+
+   <xs:element name="plan">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="p"/>
+        <xs:element minOccurs="0" ref="ul"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -180,5 +204,45 @@
   </xs:element>
 
   <xs:element name="nom" type="xs:normalizedString"/>
+
+  <!-- HTML element -->
+
+<xs:element name="ol">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="li"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+   <xs:element name="p">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="b"/>
+        <xs:element ref="t"/>
+        <xs:element ref="i"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="i" type="xs:string"/>
+  <xs:element name="ul">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="li"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="li">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="t"/>
+          <xs:element ref="ul"/>
+        </xs:choice>
+        <xs:element minOccurs="0" ref="b"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="b" type="xs:string"/>
+  <xs:element name="t" type="xs:string"/>
 
 </xs:schema>

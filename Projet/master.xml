@@ -4,270 +4,3058 @@
 <master xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   	xsi:noNamespaceSchemaLocation="master.xsd" >
 
-	<intervenant id='I1'>
-		<nom>Molin Dal</nom>
-		<mail>molin.dal@univ-amu.fr</mail>
-		<site>molin.dal.fr</site>
-	</intervenant>
-
-	<intervenant id='I2'>
-		<nom>Emmanuel Godard</nom>
-		<mail>emmanuel.godard@univ-amu.fr</mail>
-		<site>emmanuel.godard.fr</site>
-	</intervenant>
-
-	<intervenant id='I3'>
-		<nom>Yann Vaxes</nom>
-		<mail>yann.vaxes@univ-amu.fr</mail>
-		<site>yann.vaxes.fr</site>
-	</intervenant>
-
-	<intervenant id='I4'>
-		<nom>Pablo Arrighi</nom>
-		<mail>pablo.arrighi@univ-amu.fr</mail>
-		<site>pablo.arrighi.fr</site>
-	</intervenant>
-
-	<intervenant id='I5'>
-		<nom>Yann Vaxes</nom>
-		<mail>yann.vaxes@univ-amu.fr</mail>
-		<site>yann.vaxes.fr</site>
-	</intervenant>
-
-	<intervenant id='I6'>
-		<nom>Remi Morin</nom>
-		<mail>remi.morin@univ-amu.fr</mail>
-		<site>remi.morin.fr</site>
-	</intervenant>
-
-	<intervenant id='I7'>
-		<nom>Yann Vaxes</nom>
-		<mail>yann.vaxes@univ-amu.fr</mail>
-		<site>yann.vaxes.fr</site>
-	</intervenant>
-
-	<intervenant id='I8'>
-		<nom>Remi Eyraud</nom>
-		<mail>remi.eyraud@univ-amu.fr</mail>
-		<site>remi.eyraud.fr</site>
-	</intervenant>
-
-	<intervenant id='I9'>
-		<nom>Kevin Perrot</nom>
-		<mail>kevin.perrot@univ-amu.fr</mail>
-		<site>kevin.perrot.fr</site>
-	</intervenant>
-
-	<intervenant id='I10'>
-		<nom>Jean Luc Massat</nom>
-		<mail>jeanluc.massat@univ-amu.fr</mail>
-		<site>http://jean-luc.massat.perso.luminy.univ-amu.fr</site>
-	</intervenant>
-
-	<intervenant id='I11'>
-		<nom>Omar Boucelma</nom>
-		<mail>omar.boucelma@univ-amu.fr</mail>
-		<site>omar.boucelma.fr</site>
-	</intervenant>
+<intervenant id="II1000">
+   <nom>ARTIÈRES Thierry</nom>
+   <mail>thierry.artieres@lif.univ-mrs.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN1021">
+   <nom>BERTOLISSI Clara</nom>
+   <mail>clara.bertolissi@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN10388">
+   <nom>FAVRE Benoit</nom>
+   <mail>benoit.favre@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN12068">
+   <nom>HABET Djamal</nom>
+   <mail>djamal.habet@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN12141">
+   <nom>JEGOU Philippe</nom>
+   <mail>philippe.jegou@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN12292">
+   <nom>TERRIOUX Cyril</nom>
+   <mail>cyril.terrioux@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN12507">
+   <nom>HAMRI Maamar El amine</nom>
+   <mail>amine.hamri@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN12544">
+   <nom>BOUCELMA Omar</nom>
+   <mail>omar.boucelma@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN1262">
+   <nom>CAPPONI Cecile</nom>
+   <mail>cecile.capponi@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN12883">
+   <nom>FOURNIER Sebastien</nom>
+   <mail>sebastien.fournier@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN12969">
+   <nom>RENE CHABAROT Lydie</nom>
+   <mail>lydie.rene@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN14003">
+   <nom>DUPE Francois Xavier</nom>
+   <mail>francois-xavier.dupe@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN14758">
+   <nom>BROCHE Martine</nom>
+   <mail>martine.broche@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN16208">
+   <nom>COUETOUX Basile</nom>
+   <mail>basile.couetoux@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN16625">
+   <nom>SELLAMI Sana</nom>
+   <mail>sana.sellami@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN18">
+   <nom>MASSAT Jean Luc</nom>
+   <mail>jean-luc.massat@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN19444">
+   <nom>KADRI Hachem</nom>
+   <mail>hachem.kadri@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN21048">
+   <nom>RAMISCH Carlos</nom>
+   <mail>carlos.ramisch@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN2301">
+   <nom>HUBERT Florence</nom>
+   <mail>florence.hubert@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN23202">
+   <nom>ARRIGHI Pablo</nom>
+   <mail>pablo.arrighi@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN23203">
+   <nom>PERROT Kevin</nom>
+   <mail>kevin.perrot@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN25554">
+   <nom>MONMEGE Benjamin</nom>
+   <mail>benjamin.monmege@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN25567">
+   <nom>CONTENSIN Magali</nom>
+   <mail>magali.contensin@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN2563">
+   <nom>GODARD Emmanuel</nom>
+   <mail>emmanuel.godard@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN3524">
+   <nom>LUGIEZ Denis</nom>
+   <mail>denis.lugiez@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN36256">
+   <nom>VILLEVALOIS Didier</nom>
+   <mail>didier.villevalois@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN37076">
+   <nom>HOAREAU Nicolas</nom>
+   <mail>nicolas.hoareau@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN37097">
+   <nom>ROMANO Christian</nom>
+   <mail>christian.romano@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN37426">
+   <nom>JULLIEN Christophe</nom>
+   <mail>christophe.jullien@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN37528">
+   <nom>DI MOLFETTA Giuseppe</nom>
+   <mail>giuseppe.di-molfetta@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN38232">
+   <nom>IMBS Damien</nom>
+   <mail>damien.imbs@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN4595">
+   <nom>REYNIER Pierre-Alain</nom>
+   <mail>pierre-alain.reynier@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN4718">
+   <nom>EYRAUD Remi</nom>
+   <mail>remi.eyraud@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN4872">
+   <nom>RAFFIN Romain</nom>
+   <mail>romain.raffin@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN4955">
+   <nom>SANTOCANALE Luigi</nom>
+   <mail>luigi.santocanale@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN616">
+   <nom>AGOPIAN Roland</nom>
+   <mail>roland.agopian@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN7566">
+   <nom>CEPOI Victor</nom>
+   <mail>victor.cepoi@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN7574">
+   <nom>SEQUEIRA Jean</nom>
+   <mail>jean.sequeira@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN7722">
+   <nom>NOVELLI Noel</nom>
+   <mail>noel.novelli@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN7779">
+   <nom>THIEL Edouard</nom>
+   <mail>edouard.thiel@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN7931">
+   <nom>RISCH Sylvie</nom>
+   <mail>sylvie.risch@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN8086">
+   <nom>VAXES Yann</nom>
+   <mail>yann.vaxes@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN8416">
+   <nom>MARI Jean Luc</nom>
+   <mail>jean-luc.mari@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN8703">
+   <nom>TICHIT Laurent</nom>
+   <mail>laurent.tichit@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN9224">
+   <nom>MORIN Remi</nom>
+   <mail>remi.morin@univ-amu.fr</mail>
+   <site/>
+</intervenant>
+<intervenant id="IN9941">
+   <nom>BECHET Frederic</nom>
+   <mail>frederic.bechet@univ-amu.fr</mail>
+   <site/>
+</intervenant>
 
 	<parcours>
-		<nom>Ingénierie du logiciel et des données</nom>
-		<responsable ref='I10'/>
-		<responsable ref='I11'/>
-		<description>L’objectif de ce parcours est de former des informaticiens qui soient capables à la fois de travailler sur les problématiques du développement logiciel (spécification, conception, réalisation, qualité, tests, plateforme JEE et WEB) et sur les problématiques de la modélisation et du traitement de données (administration, stockage, intégration, visualisation, analyse).
-		</description>
-		<debouche>Ingénieur <b>Recherche</b> et Developpement</debouche>
-		<debouche>Enseignant-chercheur ou chercheur</debouche>
-		<debouche>Chef de projet</debouche>
-		<debouche>Ingénieur études et développement</debouche>
-		<debouche>Consultant technique ou fonctionnel</debouche>
-		<debouche>Ingénieur test et validation</debouche>
-		<debouche>« Data scientist » ou « Data analyst »</debouche>
-		<debouche>Administrateur de bases de données</debouche>
-		<ref-semestre ref='S1'/>
-		<ref-semestre ref='S2ILD'/>
-		<ref-semestre ref='S3ILD'/>
-		<ref-semestre ref='S4ILD'/>
-	</parcours>
-
-	<parcours>
-		<nom>Fiabilité et sécurité informatique</nom>
-		<responsable ref='I2'/>
-		<description>La formation permet d’acquérir les principes et techniques liés à la conception, l’implémentation, l’exploitation de systèmes et applications informatiques sûrs dans un environnement ouvert et hétérogène. Les métiers visés sont ceux du large champ de la sécurité informatique (applications sécurisées, management de la sécurité, administration d’infrastructures, normes et qualité, audit de sécurité).</description>
-		<debouche>Ingénieur Recherche et Developpement</debouche>
+	<nom>Fiabilité et sécurité informatique (FSI)</nom>
+   <responsable ref="IN2563"/>
+   <description>
+      <p>
+         <t>La formation permet d’acquérir les principes et techniques liés à la conception, l’implémentation, l’exploitation de systèmes et applications informatiques sûrs dans un environnement ouvert et hétérogène. Les métiers visés sont ceux du large champ de la </t>
+         <i>sécurité informatique</i>
+         <t> (applications sécurisées, management de la sécurité, administration d’infrastructures, normes et qualité, audit de sécurité, R&amp;D)</t>
+         <i>.</i>
+      </p>
+      <p>
+         <t>La formation apporte des compétences fortes en sécurité et fiabilité des applications (web, mobiles, embarquées), en sécurité organisationnelle, en sécurité des réseaux, en hacking éthique, en protocoles et architectures cryptographiques, en méthodes formelles. L’accent est mis sur le travail en équipe, sur des projets concrets, bénéficiant de l’apport des professionnels intervenant dans la formation.</t>
+      </p>
+      <p>
+         <t>Le parcours est labellisé </t>
+         <t>SecNumEdu</t>
+      </p>
+      <p>
+         <i>L’objectif de cette labellisation est d’apporter une assurance qualité aux étudiants et employeurs qu’une formation dans le domaine de la sécurité du numérique répond à une charte et des critères définis par l’</i>
+         <i>ANSSI</i>
+         <t> </t>
+         <i>en collaboration avec les acteurs et professionnels du domaine (établissements d’enseignement supérieur, industriels…).</i>
+      </p>
+      <p>
+         <b>Métiers visés</b>
+         <t> :</t>
+      </p>
+      <ul>
+         <li>
+            <t>Ingénieur R&amp;D, Chargé de veille ou de recherche, Enseignant-chercheur ou chercheur</t>
+         </li>
+         <li>
+            <t>Chef de projet</t>
+         </li>
+         <li>
+            <t>Ingénieur études et développement</t>
+         </li>
+         <li>
+            <t>Consultant technique ou fonctionnel</t>
+         </li>
+         <li>
+            <t>Responsable de la sécurité des SI</t>
+         </li>
+         <li>
+            <t>Responsable qualité</t>
+         </li>
+         <li>
+            <t>Ingénieur test et validation</t>
+         </li>
+      </ul>
+   </description>
+   <debouche>Ingénieur Recherche et Developpement</debouche>
 		<debouche>Chef de projet</debouche>
 		<debouche>Ingénieur études et développement</debouche>
 		<debouche>Consultant technique ou fonctionnel</debouche>
 		<debouche>Responsabe de la sécurité des SI</debouche>
 		<debouche>Responsable qualité</debouche>
 		<debouche>Ingénieur test et validation</debouche>
-		<ref-semestre ref='S1'/>
-		<ref-semestre ref='S2FSI'/>
-		<ref-semestre ref='S3FSI'/>
-		<ref-semestre ref='S4FSI'/>
-	</parcours>
+   <ref-semestre ref="ME5SIN-S1"/>
+   <ref-semestre ref="ME5SIN-S2"/>
+   <ref-semestre ref="ME5SIN-S3FSI"/>
+   <ref-semestre ref="ME5SIN-S4PRO"/>
+</parcours>
 
-	<semestre id='S1'>
-		<bloc-unite>
-			<ref-unite ref='S51AN1M1' />
-			<role>Obligatoire</role>
-		</bloc-unite>
-		<bloc-unite>
-			<ref-unite ref='S51IN1M2' />
-			<role>Obligatoire</role>
-		</bloc-unite>
-		<bloc-unite>
-			<ref-unite ref='S51IN1M3' />
-			<role>Obligatoire</role>
-		</bloc-unite>
-		<bloc-unite>
-			<ref-unite ref='S51IN1M4' />
-			<role>Obligatoire</role>
-		</bloc-unite>
-		<bloc-unite>
-			<ref-unite ref='S51IN1M5' />
-			<role>Obligatoire</role>
-		</bloc-unite>
-		<bloc-unite>
-			<ref-unite ref='S51IN1M6' />
-			<role>Obligatoire</role>
-		</bloc-unite>
-	</semestre>
+<parcours>
+	<nom>Ingénierie du logiciel et des données (ILD)</nom>
+   <responsable ref="IN12544"/>
+   <description>
+      <p>
+         <t>L’objectif de ce parcours est de former des informaticiens qui soient capables à la fois de travailler sur les problématiques du développement logiciel (spécification, conception, réalisation, qualité, tests, plateforme JEE et WEB) et sur les problématiques de la modélisation et du traitement de données (administration, stockage, intégration, visualisation, analyse).</t>
+      </p>
+      <p>
+         <t>Après un tronc-commun couvrant les deux aspects, l’étudiant pourra, au travers d’options, approfondir ses connaissances sur le traitement des données (informatique décisionnelle, techniques liées au Big Data, architectures orientées données) et sur le développement (architectures logicielles et de services distribués, cloud computing, mobile, Internet des objets).</t>
+      </p>
+      <p>
+         <t>Les diplômés réaliseront des solutions logicielles avancées dans des environnements complexes et des domaines variés pour aider les entreprises à valoriser leurs données, prendre des décisions et faciliter leur évolution vers une économie dirigée par le numérique. Ils pourront également s'orienter vers les métiers de la recherche dans les thèmes liés au parcours.</t>
+      </p>
+      <p>
+         <b>Métiers visés</b>
+         <t> :</t>
+      </p>
+      <ul>
+         <li>
+            <t>Ingénieur R&amp;D</t>
+         </li>
+         <li>
+            <t>Chargé de veille ou de recherche, Enseignant-chercheur ou chercheur</t>
+         </li>
+         <li>
+            <t>Chef de projet</t>
+         </li>
+         <li>
+            <t>Ingénieur études et développement</t>
+         </li>
+         <li>
+            <t>Consultant technique ou fonctionnel</t>
+         </li>
+         <li>
+            <t>Ingénieur test et validation</t>
+         </li>
+         <li>
+            <t>« Data scientist » ou « Data analyst »</t>
+         </li>
+         <li>
+            <t>Administrateur de bases de données</t>
+         </li>
+         <li>
+            <t>Ingénieur intégration</t>
+         </li>
+      </ul>
+   </description>
+   <debouche>Ingénieur Recherche et Developpement</debouche>
+		<debouche>Chef de projet</debouche>
+		<debouche>Ingénieur études et développement</debouche>
+		<debouche>Consultant technique ou fonctionnel</debouche>
+		<debouche>Responsabe de la sécurité des SI</debouche>
+		<debouche>Responsable qualité</debouche>
+		<debouche>Ingénieur test et validation</debouche>
+	<ref-semestre ref="ME5SIN-S1"/>
+   <ref-semestre ref="ME5SIN-S2"/>
+   <ref-semestre ref="ME5SIN-S3ILD"/>
+   <ref-semestre ref="ME5SIN-S4PRO"/>
+</parcours>
 
+<parcours>
+   <nom>Intelligence artificielle et apprentissage automatique (IAAA)</nom>
+   <responsable ref="II1000"/>
+   <description>
+      <p>
+         <t>Le parcours IAAA introduit les avancées les plus récentes en intelligence artificielle et forme à l'exploitation des méthodes et techniques associées dans des applications innovantes. Les thèmes abordés sont l'apprentissage automatique, l’apprentissage profond, le traitement automatique du langage naturel, la modélisation et de la résolution de problèmes à base de contraintes, et la représentation et le traitement des connaissances. Ces thèmes s’inscrivent notamment dans le cadre de la science des données et de l’informatique fondamentale.</t>
+      </p>
+      <p>
+         <t>Le parcours IAAA partage des unités d'enseignement avec le master data science de la mention mathématiques appliquées, avec l’option Science des Données de l’École Centrale Marseille, et avec le master sciences cognitives de l'institut convergence ILCB sur les aspects apprentissage à la confluence des thèmes cerveau et ordinateur, et donnera lieu à des projets communs avec des étudiants sur l'ensemble des disciplines de l’institut.</t>
+      </p>
+      <p>
+         <t>Le parcours IAAA est fortement orienté « recherche » et « recherche et développement » avec de forts débouchés en thèse, permettant aussi d'intégrer directement une entreprise au sein de projets qui développent des applications mettant en jeu des technologies à base d'IA.</t>
+      </p>
+      <p>
+         <t>Ce parcours sera tourné vers l’international par le biais notamment du recrutement d'étudiants étrangers via l’Ecole Centrale Marseille.</t>
+      </p>
+      <p>
+         <b>Métiers visés</b>
+         <t> :</t>
+      </p>
+      <ul>
+         <li>
+            <t>Ingénieur R&amp;D</t>
+         </li>
+         <li>
+            <t>Chargé de veille ou de recherche, Enseignant-chercheur ou chercheur</t>
+         </li>
+         <li>
+            <t>Chef de projet</t>
+         </li>
+         <li>
+            <t>Ingénieur études et développement</t>
+         </li>
+         <li>
+            <t>« Data scientist » ou « Data analyst »</t>
+         </li>
+      </ul>
+   </description>
+   <debouche>Ingénieur Recherche et Developpement</debouche>
+		<debouche>Chef de projet</debouche>
+		<debouche>Ingénieur études et développement</debouche>
+		<debouche>Consultant technique ou fonctionnel</debouche>
+		<debouche>Responsabe de la sécurité des SI</debouche>
+		<debouche>Responsable qualité</debouche>
+		<debouche>Ingénieur test et validation</debouche>
+   <ref-semestre ref="ME5SIN-S1"/>
+   <ref-semestre ref="ME5SIN-S2"/>
+   <ref-semestre ref="ME5SIN-S3IAAAA"/>
+   <ref-semestre ref="ME5SIN-S4PRO"/>
+</parcours>
 
-	<semestre id='S2ILD'>
-		<bloc-unite>
-			<ref-unite ref='S51IN2M03' />
-			<role>Option</role>
-		</bloc-unite>
-		<bloc-unite>
-			<ref-unite ref='S51IN2C2' />
-			<role>Obligatoire</role>
-		</bloc-unite>
-	</semestre>
+<parcours>
+   <nom>Informatique et mathématiques discrètes (IMD)</nom>
+   <responsable ref="IN4595"/>
+   <description>
+      <p>
+         <t>Ce parcours vise à former des étudiants capables de raisonner à l’aide des formalismes suivants : algorithmique, logique, automates et autres modèles de calcul. Ils devront acquérir une expertise avancée sur ces domaines et être en mesure de les utiliser pour modéliser de manière rigoureuse un problème informatique à résoudre.</t>
+      </p>
+      <p>
+         <t>Ce parcours s’adresse principalement aux étudiants souhaitant réaliser une thèse en informatique, celle-ci pouvant se dérouler dans le milieu académique ou au sein d’une entreprise (thèse CIFRE). Il forme les étudiants aux sujets actuels de la recherche en informatique, en s’appuyant sur les équipes de recherche en informatique d’Aix-Marseille Université.</t>
+      </p>
+      <p>
+         <b>Métiers visés</b>
+         <t> :</t>
+      </p>
+      <ul>
+         <li>
+            <t>Ingénieur R&amp;D</t>
+         </li>
+         <li>
+            <t>Chargé de veille ou de recherche</t>
+         </li>
+         <li>
+            <t>Enseignant-chercheur ou chercheur</t>
+         </li>
+      </ul>
+   </description>
+   <debouche>Ingénieur Recherche et Developpement</debouche>
+		<debouche>Chef de projet</debouche>
+		<debouche>Ingénieur études et développement</debouche>
+		<debouche>Consultant technique ou fonctionnel</debouche>
+		<debouche>Responsabe de la sécurité des SI</debouche>
+		<debouche>Responsable qualité</debouche>
+		<debouche>Ingénieur test et validation</debouche>
+   <ref-semestre ref="ME5SIN-S1"/>
+   <ref-semestre ref="ME5SIN-S2"/>
+   <ref-semestre ref="ME5SIN-S3PCIMD"/>
+   <ref-semestre ref="ME5SIN-S4PCIMD"/>   
+</parcours>
 
-	<semestre id='S2FSI'>
-		<bloc-unite>
-			<ref-unite ref='S51IN2M03' />
-			<role>Option</role>
-		</bloc-unite>
-	</semestre>
+<parcours>
+   <nom>Computational and mathematical biology (CMB)</nom>
+   <responsable ref="IN8703"/>
+   <description>
+      <p>
+         <t>CMB est un parcours orienté vers l'analyse et la modélisation des systèmes biologiques complexes, et ouvert à l'international à travers </t>
+         <i>la graduate school</i>
+         <t> du Centre Turing des systèmes vivants (</t>
+         <t>CENTURI</t>
+         <t>).</t>
+      </p>
+      <p>
+         <t>Ce parcours est commun aux Masters d’informatique, de mathématiques et de biologie, et vise à réunir des étudiants d'horizons divers à fort potentiel et à profiter des synergies interdisciplinaires afin de les former à ce domaine scientifique de pointe en plein essor.</t>
+      </p>
+      <p>
+         <t>CMB propose ainsi une formation par et pour la recherche, avec de forts débouchés en thèse de doctorat, mais également dans les nombreuses entreprises du domaine ayant une politique marquée vers la R&amp;D.</t>
+      </p>
+      <p>
+         <t>Au sein du Master Informatique, la formation mettra l'accent sur l'informatique théorique, afin que les étudiants en maîtrisent des concepts poussés essentiels à la modélisation de phénomènes naturels (modèles de calcul, complexité, systèmes dynamiques), en veillant à développer leurs compétences en mathématiques et en biologie.</t>
+      </p>
+   </description>
+   <debouche>Ingénieur Recherche et Developpement</debouche>
+		<debouche>Chef de projet</debouche>
+		<debouche>Ingénieur études et développement</debouche>
+		<debouche>Consultant technique ou fonctionnel</debouche>
+		<debouche>Responsabe de la sécurité des SI</debouche>
+		<debouche>Responsable qualité</debouche>
+		<debouche>Ingénieur test et validation</debouche>
+   <ref-semestre ref="ME5SIN-S1C"/>
+   <ref-semestre ref="ME5SIN-S2C"/>
+   <ref-semestre ref="ME5SIN-S3C"/>
+   <ref-semestre ref="ME5SIN-S4CMB"/>
+</parcours>
 
-	<semestre id='S3ILD'>
-		
-	</semestre>
+<parcours>
+	<nom>Géométrie et informatique graphique (GIG)</nom>
+   <responsable ref="IN8416"/>
+   <description>
+      <p>
+         <t>Le parcours GIG s’articule autour de la modélisation 3D, de l’informatique graphique et de la géométrie appliquée. Les objectifs pédagogiques ont autant une orientation « professionnelle » que « recherche » : le modèle géométrique étant au cœur des problématiques, il s’agit de travailler sur les méthodes de génération automatique d’objets 3D et sur les algorithmes de traitement de la géométrie dans les contextes de la conception assistée par ordinateur, du rendu, de l’animation, de la réalité virtuelle et augmentée et de l’industrie du jeu vidéo.</t>
+      </p>
+      <p>
+         <b>Métiers visés</b>
+         <t> :</t>
+      </p>
+      <ul>
+         <li>
+            <t>Développeur et concepteur d'applications graphiques et de modélisation géométrique</t>
+         </li>
+         <li>
+            <t>Ingénieur R&amp;D ou chef de projet</t>
+         </li>
+         <li>
+            <t>Chargé de veille ou de recherche, Enseignant-chercheur ou chercheur</t>
+         </li>
+         <li>
+            <t>Concepteur d’applications graphiques, de jeux vidéo et de réalité virtuelle</t>
+         </li>
+         <li>
+            <t>Ingénieur études et développement</t>
+         </li>
+      </ul>
+   </description>
+   <debouche>Ingénieur Recherche et Developpement</debouche>
+		<debouche>Chef de projet</debouche>
+		<debouche>Ingénieur études et développement</debouche>
+		<debouche>Consultant technique ou fonctionnel</debouche>
+		<debouche>Responsabe de la sécurité des SI</debouche>
+		<debouche>Responsable qualité</debouche>
+		<debouche>Ingénieur test et validation</debouche>
+   <ref-semestre ref="ME5SIN-S1"/>
+   <ref-semestre ref="ME5SIN-S2"/>
+   <ref-semestre ref="ME5SIN-S3GIG"/>
+   <ref-semestre ref="ME5SIN-S4PRO"/>
+</parcours>
+	<semestre id="ME5SIN-S1C">
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S40BI1Z1"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+   <bloc-unite>
+         <ref-unite ref="ME5SIN-S40BI1Z2"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+   <bloc-unite>
+        <ref-unite ref="ME5SIN-S51IN1M1"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN1Z1"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+   <bloc-unite>
+       <ref-unite ref="ME5SIN-S51IN1Z4"></ref-unite>
+      <role> Obligatoire </role>
+   </bloc-unite>
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN2Z4O"></ref-unite>
+      <role> Obligatoire </role>
+   </bloc-unite>
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S53MA1Z1"></ref-unite>
+      <role> Obligatoire </role>
+   </bloc-unite>
+</semestre>
 
-	<semestre id='S3FSI'>
-		
-	</semestre>
+<semestre id="ME5SIN-S2C">
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S40BI2I4"></ref-unite>
+      <role> Obligatoire </role>
+   </bloc-unite>
+   <bloc-unite>
+       <ref-unite ref="ME5SIN-S40BI2Z1"></ref-unite>
+      <role> Obligatoire </role>
+   </bloc-unite>
+   <bloc-unite>
+     <ref-unite ref="ME5SIN-S51IN2Z1"></ref-unite>
+      <role> Obligatoire </role>
+   </bloc-unite>
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN2Z2"></ref-unite>
+      <role> Obligatoire </role>
+   </bloc-unite>
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S99XX2Z1"></ref-unite>
+      <role> Obligatoire </role>
+   </bloc-unite>
+   <bloc-unite>
+     <ref-unite ref="ME5SIN-S99XX2Z2"></ref-unite>
+      <role> Obligatoire </role>
+   </bloc-unite>   
+</semestre>
 
-	<semestre id='S4ILD'>
-		
-	</semestre>
+<semestre id="ME5SIN-S3C">
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S40BI3D7"></ref-unite>
+      <role> Obligatoire </role>
+   </bloc-unite>
+   <bloc-unite>
+       <ref-unite ref="ME5SIN-S51IN3Z2"></ref-unite>
+      <role> Obligatoire </role>
+   </bloc-unite>
+   <bloc-unite>
+    <ref-unite ref="ME5SIN-S51IN3Z3"></ref-unite>
+      <role> Obligatoire </role>
+   </bloc-unite>
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51MA3C3"></ref-unite>
+      <role> Obligatoire </role>
+   </bloc-unite>
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S99XX3Z1"></ref-unite>
+      <role> Obligatoire </role>
+   </bloc-unite>
+   <bloc-unite>
+     <ref-unite ref="ME5SIN-S99XX4Z1"></ref-unite>
+      <role> Obligatoire </role>
+   </bloc-unite>
 
-	<semestre id='S4FSI'>
-		
-	</semestre>
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S40BI3Z2A"></ref-unite>
+      <role> Option </role>
+   </bloc-unite>
 
-	<unite id='S51AN1M1'>
-		<nom>Anglais S1</nom>
-		<credit>3</credit>
-		<resume>non disponible</resume>
-		<plan>
-			<chapitre>Compréhension Ecrite</chapitre>
-			<chapitre>Compréhension Orale</chapitre>
-		</plan>
-		<lieu>Luminy</lieu>
-		<ref-intervenant ref='I1' />
-	</unite>
+    <bloc-unite>
+       <ref-unite ref="ME5SIN-S40BI3Z2B"></ref-unite>
+      <role> Option </role>
+   </bloc-unite>
 
-	<unite id='S51IN1M2'>
-		<nom>Complexité</nom>
-		<credit>6</credit>
-		<resume>Rappels sur les notions d'analyse de la complexité des algorithmes et des problèmes.</resume>
-		<plan>
-			<chapitre>Classe P et NP</chapitre>
-			<chapitre>Problème NP-complet</chapitre>
-		</plan>
-		<lieu>Luminy</lieu>
-		<ref-intervenant ref='I9' />
-	</unite>
+    <bloc-unite>
+     <ref-unite ref="ME5SIN-S40BI3Z4"></ref-unite>
+      <role> Option </role>
+   </bloc-unite>
+</semestre>
 
-	<unite id='S51IN1M3'>
-		<nom>Introduction à la science des données</nom>
-		<credit>3</credit>
-		<resume>A travers trois cas d’utilisation, ce cours introduit la notion d’analyse de données.</resume>
-		<plan>
-			<chapitre>Clustering</chapitre>
-			<chapitre>Classification</chapitre>
-			<chapitre>Régression</chapitre>
-		</plan>
-		<lieu>Luminy</lieu>
-		<ref-intervenant ref='I8' />
-	</unite>
+<semestre id="ME5SIN-S4CMB">
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S99XX4Z2"></ref-unite>
+      <role> Obligatoire </role>
+   </bloc-unite>
+</semestre>
 
-	<unite id='S51IN1M4'>
-		<nom>Programmation objet concurrente</nom>
-		<credit>3</credit>
-		<resume>Cette UE présente aux étudiants du M1 les principales difficultés de la programmation multi-thread et les techniques classiques permettant de développer un code correct et performant .</resume>
-		<plan>
-			<chapitre>Thread</chapitre>
-			<chapitre>Indépendance et atomicité</chapitre>
-		</plan>
-		<lieu>Luminy</lieu>
-		<ref-intervenant ref='I6' />
-	</unite>
+<semestre id="ME5SIN-S1">
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51AN1M1"></ref-unite>
+      <role> Obligatoire </role>
+   </bloc-unite>
 
-	<unite id='S51IN1M5'>
-		<nom>Réseaux</nom>
-		<credit>4</credit>
-		<resume>Introduction à la Sécurité des réseaux. Contenu en cours d'actualisation .</resume>
-		<plan>
-			<chapitre>Couche physique</chapitre>
-			<chapitre>Couche liaison</chapitre>
-			<chapitre>Couche réseau</chapitre>
-			<chapitre>Couche transport</chapitre>
-			<chapitre>Couche Application</chapitre>
-		</plan>
-		<lieu>Luminy</lieu>
-		<ref-intervenant ref='I2' />
-	</unite>
+   <bloc-unite>
+	<ref-unite ref="ME5SIN-S51IN1M1"></ref-unite> 
+	<role> Obligatoire </role>
+   </bloc-unite>
 
-	<unite id='S51IN1M6'>
-		<nom>Algorithmique et recherche opérationnelle</nom>
-		<credit>3</credit>
-		<resume>Programmation linéaire. Notions et algorithmes de flots. Applications (couplage, affectation, transport, ...) Programmation dynamique (sac à dos, ordonnancement, ...) Algorithmes à performance garantie Contenu en cours d'actualisation .</resume>
-		<plan>
-			<chapitre>Programmation linéaire</chapitre>
-			<chapitre>Algorithme de flot</chapitre>
-		</plan>
-		<lieu>Luminy</lieu>
-		<ref-intervenant ref='I7' />
-	</unite>
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN1M2"></ref-unite>
+      <role> Obligatoire </role>
+   </bloc-unite>
 
-	<unite id='S51IN2M03'>
-		<nom>Interface homme-machine</nom>
-		<credit>3</credit>
-		<resume>Qt / programmation événementielle informatique graphique/OpenGL Ergonomie/Responsive mise en niveau en C++</resume>
-		<plan>
-			<chapitre>Projet</chapitre>
-		</plan>
-		<lieu>Luminy</lieu>
-		<ref-intervenant ref='I2' />
-	</unite>
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN1M3"></ref-unite>
+      <role> Obligatoire </role>
+   </bloc-unite>
 
-	<unite id='S51IN2C2'>
-		<nom>Donnée post-relationnelle</nom>
-		<credit>3</credit>
-		<resume>XML / XPath / XSL / Xquery Json / NoSQL / NewSQL</resume>
-		<plan>
-			<chapitre>XML</chapitre>
-			<chapitre>XPATH</chapitre>
-			<chapitre>XSL</chapitre>
-		</plan>
-		<lieu>Luminy</lieu>
-		<ref-intervenant ref='I10' />
-		<ref-intervenant ref='I1' />
-	</unite>
+   <bloc-unite>
+       <ref-unite ref="ME5SIN-S51IN1M4"></ref-unite>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN1M5"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+   <bloc-unite>
+     <ref-unite ref="ME5SIN-S51IN1M6"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+   <bloc-unite>
+       <ref-unite ref="ME5SIN-S51PP1M2"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+</semestre>
+
+<semestre id="ME5SIN-S2">
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51PP2M02"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN2A2"/>
+      <role> Option </role>
+   </bloc-unite>
+
+    <bloc-unite>
+     <ref-unite ref="ME5SIN-S51IN2A7"/>
+      <role> Option </role>
+   </bloc-unite>
+
+    <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN2B1"/>
+      <role> Option </role>
+   </bloc-unite>
+
+    <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN2C1"/>
+      <role> Option </role>
+   </bloc-unite>
+
+    <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN2F1"/>
+      <role> Option </role>
+   </bloc-unite>
+
+    <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN2M03"/>
+      <role> Option </role>
+   </bloc-unite>
+
+    <bloc-unite>
+     <ref-unite ref="ME5SIN-S51IN2M04"/>
+      <role> Option </role>
+   </bloc-unite>
+
+    <bloc-unite>
+     <ref-unite ref="ME5SIN-S51IN2M05"/>
+      <role> Option </role>
+   </bloc-unite>
+
+    <bloc-unite>
+     <ref-unite ref="ME5SIN-S51IN2M06"/>
+      <role> Option </role>
+   </bloc-unite>
+
+    <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN2M07"/>
+      <role> Option </role>
+   </bloc-unite>
+
+    <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN2M08"/>
+      <role> Option </role>
+   </bloc-unite>
+
+    <bloc-unite>
+       <ref-unite ref="ME5SIN-S51IN2M01"/>
+      <role> Option </role>
+   </bloc-unite>
+
+    <bloc-unite>
+      <ref-unite ref="ME5SIN-SUP100"/>
+      <role> Option </role>
+   </bloc-unite>     
+</semestre>
+
+<semestre id="ME5SIN-S3FSI">
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51AN3M1"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+    <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3A1"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+    <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3A2"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+    <bloc-unite>
+       <ref-unite ref="ME5SIN-S51IN3A4"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+    <bloc-unite>
+       <ref-unite ref="ME5SIN-S51IN3A6"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+    <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3A7"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+    <bloc-unite>
+       <ref-unite ref="ME5SIN-S51PP3M2"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+    <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3A8"/>
+      <role> Option </role>
+   </bloc-unite>
+
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3C16O"/>
+      <role> Option </role>
+   </bloc-unite>
+
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S60IN3B3"/>
+      <role> Option </role>
+   </bloc-unite>
+</semestre>
+
+<semestre id="ME5SIN-S3GIG">
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51AN3M1"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3B1"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+   <bloc-unite>
+       <ref-unite ref="ME5SIN-S51IN3B2"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3B3"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+    <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3B4"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+   <bloc-unite>
+       <ref-unite ref="ME5SIN-S51IN3B5"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51PP3M2"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+</semestre>
+
+<semestre id="ME5SIN-S3IAAAA">
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51AN3M1"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+   <bloc-unite>
+     <ref-unite ref="ME5SIN-S51IN3E02"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+   <bloc-unite>
+       <ref-unite ref="ME5SIN-S51IN3E03"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3E04"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+   <bloc-unite>
+       <ref-unite ref="ME5SIN-S51PP3M2"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3E06"/>
+      <role> Option </role>
+   </bloc-unite>
+
+    <bloc-unite>
+       <ref-unite ref="ME5SIN-S51IN3E07"/>
+      <role> Option </role>
+   </bloc-unite>
+
+    <bloc-unite>
+       <ref-unite ref="ME5SIN-S51IN3E08"/>
+      <role> Option </role>
+   </bloc-unite>
+
+    <bloc-unite>
+       <ref-unite ref="ME5SIN-S51IN3E09"/>
+      <role> Option </role>
+   </bloc-unite>
+
+    <bloc-unite>
+     <ref-unite ref="ME5SIN-S53IN3C7"/>
+      <role> Option </role>
+   </bloc-unite>
+
+    <bloc-unite>
+      <ref-unite ref="ME5SIN-S64AL1I1"/>
+      <role> Option </role>
+   </bloc-unite>
+
+    <bloc-unite>
+       <ref-unite ref="ME5SIN-S64AL1I3"/>
+      <role> Option </role>
+   </bloc-unite>
+</semestre>
+
+<semestre id="ME5SIN-S3ILD">
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51AN3M1"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+    <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3D01"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+    <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3D02"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+    <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3D04"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+    <bloc-unite>
+      <ref-unite ref="ME5SIN-S51PP3M2"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+</semestre>
+
+<semestre id="ME5SIN-S4PRO">
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN4M1"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+    <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN4M2"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+</semestre>
+
+<semestre id="ME5SIN-S3PCIMD">
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3C1"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3C2"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+   <bloc-unite>
+     <ref-unite ref="ME5SIN-S51MA3C3"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+   
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3C11"/>
+      <role> Option </role>
+   </bloc-unite>
+
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3C12"/>
+      <role> Option </role>
+   </bloc-unite>
+
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3C13O"/>
+      <role> Option </role>
+   </bloc-unite>
+
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3C14O"/>
+      <role> Option </role>
+   </bloc-unite>
+
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3C15O"/>
+      <role> Option </role>
+   </bloc-unite>
+
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3C16O"/>
+      <role> Option </role>
+   </bloc-unite>
+
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3C17"/>
+      <role> Option </role>
+   </bloc-unite>
+
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN3C18"/>
+      <role> Option </role>
+   </bloc-unite>
+</semestre>
+
+<semestre id="ME5SIN-S4PCIMD">
+   <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN4C0"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+    <bloc-unite>
+      <ref-unite ref="ME5SIN-S51IN4C5"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+
+    <bloc-unite>
+      <ref-unite ref="ME5SIN-S51PP4M1"/>
+      <role> Obligatoire </role>
+   </bloc-unite>
+</semestre>
+	<unite id="ME5SIN-S40BI2I4">
+   <nom>Analysis of Omics Data</nom>
+   <credit>6</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S40BI2I4A">
+   <nom>Bioinformatics Analysis of Omics Data</nom>
+   <credit>2</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S40BI2I4B">
+   <nom>Statistical Analysis of Omics Data</nom>
+   <credit>2</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S40BI3D7">
+   <nom>Biological interaction networks</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S40BI1Z1">
+   <nom>Fundamentals in biology 1</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Cette unité est la première partie de l'enseigement Fundamentals of biology. Dans cette partie, on donnera une présentation des théories évolutionnistes à la base de la biologie moderne (de Lamarck à Darwin) et une synthèse des découvertes qui ont conduit aux concepts actuels de la biologie moléculaire et cellulaire : le rôle des macromolécules dans la fonction cellulaire (transfert d'information entre ADN, ARN, protéines, régulation, etc.), hérédité et adaptation cellulaire.</t>
+         </p>
+         <p>
+            <t>Voici quelques sujets qui seront abordés :e</t>
+         </p>
+         <ul>
+            <li>
+               <t>Information, évolution des causes pour les organismes vivants</t>
+            </li>
+            <li>
+               <t>Information cellulaire</t>
+            </li>
+            <li>
+               <t>Epigénétique - phénomènes, informations, adaptation, mécanismes</t>
+            </li>
+         </ul>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S40BI1Z2">
+   <nom>UE professionnalisante 1 : Professional perspectives for biological systems modelling</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>L'unité d'enseignement consiste en une présentation des métiers porteurs de la modélisation biologique. Elle s'effectuera selon deux modalités. Premièrement quelques séminaires seront proposés avec des intervenants extérieurs à Aix-Marseille Université du domaine académique et industriel. Deuxièmement les étudiants bénéficieront d'une immersion dans des laboratoires Centuri où ils découvriront des thématiques de recherche pluri-disciplinaires. Pour conclure cette unité il sera demandé aux étudiants de présenter une problématique spécifique en lien avec le traitement des données et la modélisation. L'aspect scientifique devra également s'intégrer à une réflexion sur les enjeux professionnels sous-jacents, qu'ils relèvent du domaine académique ou du secteur privé.</t>
+         </p>
+   </resume>
+   <plan>
+      <p>
+         <t>Découverte des thèmes de recherche pluridisciplinaires à travers des séminaires et des visites de laboratoires de recherche et d'entreprises du secteur des entreprises.</t>
+      </p>
+   </plan>
+</unite>
+<unite id="ME5SIN-S40BI2Z1">
+   <nom>Fundamentals of biology 2</nom>
+   <credit>4</credit>
+   <resume>
+         <p>
+            <t>Ce cours fait suite au cours </t>
+            <b>Fundamentals of biology 1.</b>
+            <t> On montrera comment ces mécanismes moléculaires sous-tendent le développement et le fonctionnement des tissus et des organismes. Il sera structuré autour de quatre domaines :</t>
+         </p>
+         <ul>
+            <li>
+               <t>la transmission intergénérationnelle des traits ;</t>
+            </li>
+            <li>
+               <t>développement de l'organisme ;</t>
+            </li>
+            <li>
+               <t>système immunitaire ;</t>
+            </li>
+            <li>
+               <t>système nerveux.</t>
+            </li>
+         </ul>
+         <p>
+            <t>Vous trouverez ci-dessous des exemples de sujets abordés :</t>
+         </p>
+         <ul>
+            <li>
+               <t>Information et organisation :</t>
+            </li>
+            <li>
+               <t>transmission intergénérationnelle (cellules, organismes, Information, évolution des causes pour les organismes vivants)</t>
+            </li>
+            <li>
+               <t>Développement des organismes</t>
+            </li>
+            <li>
+               <t>Information et organisation du système immunitaire</t>
+            </li>
+         </ul>
+         <p>
+            <t>Information et organisation du système nerveux</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S40BI3Z2A">
+   <nom>Advanced Biology : Developmental Biology</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S40BI3Z2B">
+   <nom>Advanced Biology : Immunology</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S40BI3Z4">
+   <nom>Advanced biology : Neurobiology</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN1Z1">
+   <nom>Discrete modelling of dynamical biological systems 1</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>This course is an introduction to the basics of finite dynamic systems and PLC networks (definitions of local functions, global function/relationship, automata, interaction graph, transition graph) as well as the main static and dynamic properties. A part of the lecture will also focus on the parallel update mode.</t>
+         </p>
+         <p>
+            <t>The lectures should provide students the skills to implement modelling approaches (differential, logical, stochastic or deterministic equations) to develop mathematical models of a biological system, analyze mathematical models and biological data to understand complex systems, evaluate the adequacy between a biological question, available data, and mathematical formalisms and interpret and validate a study.</t>
+         </p>
+   </resume>
+   <plan>
+      <p>
+         <t>Lectures (6h), TD (6h), TP (6h)</t>
+      </p>
+   </plan>
+</unite>
+<unite id="ME5SIN-S51IN1Z4">
+   <nom>Computational Biology</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Computational biology will introduce the biological concepts necessary to model complex systems, implement modelling approaches (differential, logical, stochastic or deterministic equations) to develop mathematical models of a biological system, analyze mathematical models and biological data to understand complex systems and assess the adequacy between a biological question.</t>
+         </p>
+         <p>
+            <t>The course is divided in 2 sections :</t>
+         </p>
+         <ul>
+            <li>
+               <t>computational neuroscience : dynamic models of neuron function : dynamic behavioural simulation, biological aspects, computer complexity, analytical aspects</t>
+            </li>
+            <li>
+               <t>bioinformatics : alignment, molecular phylogeny, prediction and modelling of structural aspects of proteins, cis-regulation</t>
+            </li>
+         </ul>
+   </resume>
+   <plan>
+      <p>
+         <t>Lectures (14h), TP (16h)</t>
+      </p>
+   </plan>
+</unite>
+<unite id="ME5SIN-S51IN2Z1">
+   <nom>Discrete mathematics</nom>
+   <credit>6</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN2Z1A">
+   <nom>Discrete modelling of dynamical biological systems 2</nom>
+   <credit>2</credit>
+   <resume>
+         <p>
+            <t>This specialization course on discrete modelling deals with the following :</t>
+         </p>
+         <ul>
+            <li>
+               <t>Details on non-parallel update modes (both determinists - periodic or not and non-deterministic - asynchronous or elementary)</t>
+            </li>
+            <li>
+               <t>Presentation of « classical » models, methods and results (theorems of stability, instability and any other results that appears relevant).</t>
+            </li>
+         </ul>
+   </resume>
+   <plan>
+      <p>
+         <t>Lectures (9h), TD (9h)</t>
+      </p>
+   </plan>
+</unite>
+<unite id="ME5SIN-S51IN2Z1B">
+   <nom>Graph theory and algorithms 2</nom>
+   <credit>2</credit>
+   <resume>
+         <p>
+            <t>This specialization course helps the student to deepen his knowledge on problems on graphs and their solutions :</t>
+         </p>
+         <ul>
+            <li>
+               <t>Counting and enumeration : number of covering trees, number of couplings of a planar graph</t>
+            </li>
+            <li>
+               <t>Flow algorithms</t>
+            </li>
+            <li>
+               <t>Problems of connection, coupling, assignment, transport</t>
+            </li>
+         </ul>
+   </resume>
+   <plan>
+      <p>
+         <t>Lectures (9h), TD (9h)</t>
+      </p>
+   </plan>
+</unite>
+<unite id="ME5SIN-S51IN2Z2">
+   <nom>Statistical and computational tools for biological modelling</nom>
+   <credit>6</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN2Z2A">
+   <nom>Graph theory and algorithms 1</nom>
+   <credit>2</credit>
+   <resume>
+         <p>
+            <t>This introductory course focuses on graphs as mathematical objects and some of its uses to solve applications to biological networks. After intruducing different classes of graphs and their properties, the following points will be developped :</t>
+         </p>
+         <ul>
+            <li>
+               <t>Planar graphs, graphs on a surface, Euler characteristic</t>
+            </li>
+            <li>
+               <t>Interval graphs, perfect graphs</t>
+            </li>
+         </ul>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN2Z4O">
+   <nom>Complexity and computability</nom>
+   <credit>6</credit>
+   <resume>
+         <p>
+            <t>When we define neatly and consider the set of « algorithms » (Turing machines) and the set of « things an algorithm may compute » (functions), we can notice, thanks to an argument from the 19th century (Cantor's diagonal), that there are strictly more « things to compute » than « algorithms to compute them ». Then what are these things a computer cannot compute ?</t>
+         </p>
+         <p>
+            <t>This course will teach the basics of computational complexity and answer to the following questions : within the set of computable things, how to define the hardness of a « thing to compute » (aka problem) ? When defined neatly (again some maths), these questions raise fundamental open problems of our century, such as the famous 1,000,000 usd question mark : does P equal NP ?</t>
+         </p>
+         <p>
+            <t>You will also be given the tools to say : « this problem is reasonably solvable on a computer » (in P) or « this one is not » (NP-hard).</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3Z2">
+   <nom>Discrete geometry and graphical models</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3Z3">
+   <nom>Distributed algorithms for biology</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S53MA1Z1">
+   <nom>Mathematics for modelling</nom>
+   <credit>6</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S53MA1Z1A">
+   <nom>Probabilities and statistics for modelling 1</nom>
+   <credit>2</credit>
+   <resume>
+         <p>
+            <t>Révision express des concepts fondamentaux de probabilités et statistique, en s’appuyant exclusivement sur des exemples tirés de la biologie, en particulier l’analyse des génomes et des systèmes complexes. Les exemples seront articulés avec les matières vues dans les autres cours.</t>
+         </p>
+         <ol>
+            <li>
+               <t>Analyse combinatoire</t>
+            </li>
+            <li>
+               <t>Concepts de probabilités</t>
+            </li>
+            <li>
+               <t>Lois discrètes (Bernoulli, géométrique, hypergéométrique, binomiale, Poisson)</t>
+            </li>
+            <li>
+               <t>Description sommaire des lois continues de base (normale, Student)</t>
+            </li>
+            <li>
+               <t>Estimation et échantillonnage</t>
+            </li>
+            <li>
+               <t>Tests d’hypothèse</t>
+            </li>
+         </ol>
+         <p>
+            <t>Applications biologiques</t>
+         </p>
+         <ul>
+            <li>
+               <t>Probabilités de motifs dans les séquences</t>
+            </li>
+            <li>
+               <t>Détection de gènes différentiellement exprimés</t>
+            </li>
+         </ul>
+   </resume>
+   <plan>
+      <p>
+         <t>Les cours magistraux (CM) proposeront un résumé des concepts de base, qui seront mis en application dans des exercices (TD), travaux pratiques sur ordinateurs (TP) et devoirs personnels (projet de programmation en R).</t>
+      </p>
+   </plan>
+</unite>
+<unite id="ME5SIN-S53MA2Z2B">
+   <nom>Statistics for biology</nom>
+   <credit>2</credit>
+   <resume>
+         <p>
+            <t>Ce cours vise à fournir aux étudiants une approche pratique de l'analyse des données biologiques avec R, basée sur les concepts acquis dans le cours « Probabilités et statistiques pour la modélisation 1 ». Les fondements mathématiques associés seront développés dans le cours « Statistiques avancées ».</t>
+         </p>
+         <ol>
+            <li>
+               <t>Échantillonnage (moments,...)</t>
+            </li>
+            <li>
+               <t>Estimation (estimateurs robustes, intervalles de confiance)</t>
+            </li>
+            <li>
+               <t>Quelques distributions additionnelles</t>
+            </li>
+            <li>
+               <t>Tests (comparaison moyenne, qualité de l’estimation, ...)</t>
+            </li>
+         </ol>
+   </resume>
+   <plan>
+      <p>
+         <t>Le cours sera basé sur l'analyse d'ensembles de données biologiques avec le langage de programmation R.</t>
+      </p>
+   </plan>
+</unite>
+<unite id="ME5SIN-S54MA1Z1B">
+   <nom>Continuous dynamical systems and modelling : examples</nom>
+   <credit>2</credit>
+   <resume>
+         <p>
+            <t>Exemples de systèmes dynamiques continus en biologie. Introduction à leur étude qualitative.</t>
+         </p>
+         <ul>
+            <li>
+               <t>Exemples d’équations différentielles linéaires et non linéaires utilisées en biologie (Equation de Malthus, équation logistique, systèmes proie-prédateur, extensions aux systèmes multi-espèces (exemple en bactériologie), système en épidémiologie (modèle SIR)</t>
+            </li>
+            <li>
+               <t>Trajectoires (définition, visualisation, interprétation)</t>
+            </li>
+            <li>
+               <t>Approximation par le schéma d’Euler</t>
+            </li>
+            <li>
+               <t>Etats d’équilibre et leur stabilité</t>
+            </li>
+            <li>
+               <t>Visualisation du comportement asymptotique des systèmes 2D</t>
+            </li>
+         </ul>
+         <p>
+            <t>Les travaux pratiques (TP) seront effectués en Python.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S99XX2Z1">
+   <nom>Research project and scientific communication</nom>
+   <credit>6</credit>
+   <resume>
+         <p>
+            <t>A la suite de l’UE </t>
+            <b>Professional perspectives for biological systems modelling</b>
+            <t> , et de l'UE </t>
+            <b>Fundamentals of biology 1</b>
+            <t>, les étudiants choisiront un article scientifique à l’interface de plusieurs disciplines sur lequel ils travailleront en groupe. Ils devront dans un mémoire et une présentation orale, expliquer le contexte biologique et les concepts de base en rapport, expliquer les méthodes utilisées pour interpréter les données biologiques, synthétiser les résultats obtenus dans l’article.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S99XX2Z2">
+   <nom>UE professionnalisante 2 : CenTuri Seminars</nom>
+   <credit>2</credit>
+   <resume>
+         <p>
+            <t>Les séminaires scientifiques constitue une bonne façon d’élargir ses connaissances scientifiques. Dans ce module, les étudiants doivent assister à une grande partie des séminaires Centuri du semestre. Ils sélectionneront deux séminaires parmi ceux auxquels ils ont participé et feront une synthèse écrite.</t>
+         </p>
+   </resume>
+   <plan>
+      <ul>
+         <li>
+            <t>cycle de conférences CenTuri à suivre sur l'année, à raison d'une toutes les deux semaines</t>
+         </li>
+         <li>
+            <t>travail bibliographique à réaliser sur un domaine de prédilection</t>
+         </li>
+         <li>
+            <t>travail de synthèse écrit à rendre en fin de semestre</t>
+         </li>
+      </ul>
+   </plan>
+</unite>
+<unite id="ME5SIN-S99XX3Z1">
+   <nom>Interdisciplinary project in modelling</nom>
+   <credit>6</credit>
+   <resume>
+         <p>
+            <t>A la suite du cours </t>
+            <b>Research project and scientific communication</b>
+            <t>, les étudiants effectueront un stage court en laboratoire en petit groupe. Ils devront ensuite au cours duquel ils doivent répondre à un problème de modélisation ou de traitement de données à l’interface math-info-bio. On leur demandera de synthétiser leurs résultats dans un mémoire et une présentation orale.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S99XX4Z1">
+   <nom>UE professionnalisante 3 : CenTuri Seminars</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Suite qu module CenTuri Seminars 2, les étudiants vont suivre à nouveau le cycle de conférences de CenTuri durant ce semestre. Il leur sera demander de sélectionner deux d’entres eux et d’effectuer un travail bibliographique, un travail de synthèse écrit et oral autour de la thématique de chacun de ces deux séminaires.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S99XX4Z2">
+   <nom>Master thesis</nom>
+   <credit>30</credit>
+   <resume>
+         <p>
+            <t>Stage de recherche en laboratoire ou en entreprise.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51AN1M1">
+   <nom>Anglais S1</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51AN3M1">
+   <nom>Anglais S3</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Expression orale et écrite : exposés sur des sujets scientifiques et / ou professionnels, travaux écrits. Préparation et passage du TOEIC.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN1M1">
+   <nom>Génie logiciel</nom>
+   <credit>6</credit>
+   <resume>
+         <p>
+            <b>1) Versioning</b>
+         </p>
+         <ul>
+            <li>
+               <t>Git : Branches, Dépôts Lointains, Dépôts Lointains multiples avec branches, Workflows.</t>
+            </li>
+         </ul>
+         <p>
+            <b>2) Building</b>
+         </p>
+         <ul>
+            <li>
+               <t>Gradle : Automatisation de compilation, de tests, de dépendances, langage de tâches interdépendantes.</t>
+            </li>
+         </ul>
+         <p>
+            <b>3) Méthodes</b>
+         </p>
+         <ul>
+            <li>
+               <t>Les acteurs du logiciel.</t>
+            </li>
+            <li>
+               <t>Cycles en V. Motivation et détail de chacune des phases. Forces et Faiblesses.</t>
+            </li>
+            <li>
+               <t>Méthodes agiles. Motivations. Notamment XP et Scrum. Détail de chacune des réunions et instruments. Forces et Faiblesses.</t>
+            </li>
+            <li>
+               <t>GL Libre : the cathedral and the bazaar</t>
+            </li>
+         </ul>
+         <p>
+            <b>4) Documentation</b>
+         </p>
+         <ul>
+            <li>
+               <t>Du GL : Cahier des charges, Spécifications, Conception, ...</t>
+            </li>
+            <li>
+               <t>Du code : Javadoc, Commentaires, Wikis, Issues trackers</t>
+            </li>
+         </ul>
+         <p>
+            <b>5) UML</b>
+         </p>
+         <ul>
+            <li>
+               <t>Motivations. Tous les principaux diagrammes (classe, object, séquence, com, package, états-transitions,...). </t>
+               <b>2 TD</b>
+            </li>
+         </ul>
+         <p>
+            <b>6) Tests</b>
+         </p>
+         <ul>
+            <li>
+               <t>Types de Test (Blanche/Noire, Intégration (continue), Correction/Validation,...), Couverture (Exos sur les différents critères), Quand les faire (TDD...)</t>
+            </li>
+            <li>
+               <t>Découverte du debugger eclipse</t>
+            </li>
+            <li>
+               <t>Concepts d'invariants, d'assertions, d'analyse statique</t>
+            </li>
+         </ul>
+         <p>
+            <b>7) Estimation</b>
+         </p>
+         <ul>
+            <li>
+               <t>Rapports PrixDev vs TempsDev vs LignesCode</t>
+            </li>
+            <li>
+               <t>% observés de failed projects, causes observées</t>
+            </li>
+            <li>
+               <t>% observés de bugs</t>
+            </li>
+         </ul>
+         <p>
+            <b>8) Veille technologique sur l'actualité du GL</b>
+         </p>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN12507" />
+   <ref-intervenant ref="IN23202" />
+</unite>
+<unite id="ME5SIN-S51IN1M2">
+   <nom>Complexité</nom>
+   <credit>6</credit>
+   <resume>
+         <ul>
+            <li>
+               <t>Rappels sur les notions d'analyse de la complexité des algorithmes et des problèmes.</t>
+            </li>
+            <li>
+               <t>Notion de problèmes (décision, recherche, dénombrement, énumération, optimisation). Bornes inférieures de complexité.</t>
+            </li>
+            <li>
+               <t>Classes P et NP. Problèmes NP-complets.</t>
+            </li>
+            <li>
+               <t>Méthodes de résolution des problèmes NP-Complets.</t>
+            </li>
+         </ul>
+         <p>
+            <i>Contenu en cours d'actualisation</i>
+            <t>.</t>
+         </p>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN12141" />
+   <ref-intervenant ref="IN23203" />
+   <ref-intervenant ref="IN37528" />
+</unite>
+<unite id="ME5SIN-S51IN1M3">
+   <nom>Introduction à la sciences des données</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>A travers trois cas d’utilisation, ce cours introduit la notion d’analyse de données, selon trois points de vue : le clustering (apprentissage non supervisé, ACP, kmeans, visualisation), la classification (apprentissage supervisé, notion d’erreur et de modèle, erreur de Bayes, kppv, généralisation et sur-apprentissage), et la régression (notion de causalité, notion d’erreur, protocoles d’évaluation). Sensibilisation aux aspects éthiques (GAFAM). L’objectif est de sensibiliser les étudiants aux techniques de base de l’analyse de données et de l’apprentissage, avec des liens vers approches probabilistes (Bayes), statistiques, et modes d’évaluation et de visualisation. On partira de données réelles, on illustrera de fait la difficulté du nettoyage de données en amont de tout le reste.</t>
+         </p>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN1262" />
+   <ref-intervenant ref="IN4718" />
+</unite>
+<unite id="ME5SIN-S51IN1M4">
+   <nom>Programmation objet concurrente</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Depuis la généralisation des architectures multi-cœurs, la programmation parallèle est devenue incontournable pour développer des applications exploitant pleinement les capacités de traitement offertes par les ordinateurs actuels. Elle est aussi un moyen de simplifier la structure du logiciel en l'organisant sous la forme de tâches distinctes qui interagissent entre elles afin de répondre aux requêtes de l'utilisateur (ou de l'environnement).</t>
+         </p>
+         <p>
+            <t>Cette UE présente aux étudiants du M1 les principales difficultés de la programmation multi-thread et les techniques classiques permettant de développer un code </t>
+            <b>correct et performant</b>
+            <t>. Tout d'abord, les instructions de base liées à la classe Thread en Java sont introduites avec les concepts sous-jacents de </t>
+            <b>verrou</b>
+            <t> et de </t>
+            <b>variable de condition</b>
+            <t>. L'effet de ces instructions sur l'état d'un thread est illustré sur des exemples simples s'appuyant sur des diagrammes de séquence. Les notions d'indépendance et d'</t>
+            <b>atomicité</b>
+            <t> permettent ensuite de spécifier précisément les problèmes classiques de </t>
+            <b>synchronisation</b>
+            <t> en séparant le besoin d'exclusion mutuelle des contraintes d'attente particulières. L'approche recommandée pour débuter est celle de la conception et de la programmation de </t>
+            <b>moniteurs</b>
+            <t> (à la Hoare), étudiée sur plusieurs exemples classiques.</t>
+         </p>
+         <p>
+            <t>Les outils dédiés à la programmation parallèle en Java sont également présentés en cours et exploités en Travaux Pratiques : locks divers, pools de threads, collections synchronisées ou concurrentes, objets atomiques, etc. Les difficultés propres à la </t>
+            <b>programmation sans verrou</b>
+            <t> sont illustrées par la construction de structures de données simples et de verrous performants.</t>
+         </p>
+         <p>
+            <t>Enfin, un aperçu du modèle mémoire Java permet d'initier les étudiants à la notion de programme « </t>
+            <b>bien synchronisé »</b>
+            <t> et aux risques d'exécutions </t>
+            <b>inconsistantes séquentiellement</b>
+            <t> du fait des optimisations de codes réalisées lors de la compilation ou de l'exécution.</t>
+         </p>
+         <p>
+            <t>Description en cours d'actualisation.</t>
+         </p>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN9224" />
+</unite>
+<unite id="ME5SIN-S51IN1M5">
+   <nom>Réseaux</nom>
+   <credit>4</credit>
+   <resume>
+         <ul>
+            <li>
+               <t>Architecture en couches, standard OSI</t>
+            </li>
+            <li>
+               <t>Couche physique</t>
+            </li>
+            <li>
+               <t>Couche liaison de Données</t>
+            </li>
+            <li>
+               <t>Réseau IP</t>
+            </li>
+            <li>
+               <t>Algorithmes de routage, routage IP</t>
+            </li>
+            <li>
+               <t>Protocole TCP/IP</t>
+            </li>
+            <li>
+               <t>Couche Application : HTTP, SMTP, FTP, ...</t>
+            </li>
+            <li>
+               <t>Bases des protocoles cryptographiques (terminologie, architecture à clef publique).</t>
+            </li>
+            <li>
+               <t>Introduction à la Sécurité des réseaux.</t>
+            </li>
+         </ul>
+         <p>
+            <i>Contenu en cours d'actualisation</i>
+            <t>.</t>
+         </p>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN12068" />
+   <ref-intervenant ref="IN2563" />
+</unite>
+<unite id="ME5SIN-S51IN1M6">
+   <nom>Algorithmique et recherche opérationnelle</nom>
+   <credit>3</credit>
+   <resume>
+         <ul>
+            <li>
+               <t>Programmation linéaire.</t>
+            </li>
+            <li>
+               <t>Notions et algorithmes de flots.</t>
+            </li>
+            <li>
+               <t>Applications (couplage, affectation, transport, ...)</t>
+            </li>
+            <li>
+               <t>Programmation dynamique (sac à dos, ordonnancement, ...)</t>
+            </li>
+            <li>
+               <t>Algorithmes à performance garantie</t>
+            </li>
+         </ul>
+         <p>
+            <i>Contenu en cours d'actualisation</i>
+            <t>.</t>
+         </p>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN7566" />
+   <ref-intervenant ref="IN8086" />
+</unite>
+<unite id="ME5SIN-S51IN2A1">
+   <nom>Introduction à l’apprentissage artificiel</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>L’apprentissage automatique et ses approches linéaires : techniques et limites. Autour de l’étude en profondeur de deux algorithme de séparation linéaire (le perceptron et SVM) : implémentation complète, preuves de convergence, propriétés, étude des performances sur des jeux de données, approfondissement des notions de généralisation, introduction Rademacher et Kolmogorov. Tout le long de l’UE, un cas d’étude sera mené, sur la base d’images ou de videos. La problématique de l’acquisition de données privées sera traitée, avec une mise en perspective sociétale (éthique, PI, rôle du citoyen, rôle de l’ingénieur). Mise en perspective des modèles non-linéaires.</t>
+         </p>
+   </resume>
+   <plan/>
+   <lieu>SCIENCES, Marseille Luminy</lieu>
+   <ref-intervenant ref="IN1262" />
+</unite>
+<unite id="ME5SIN-S51IN2A2">
+   <nom>Introduction au traitement automatique du langage</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>L'objectif de ce cours est d'apporter aux étudiants des connaissances fondamentales en traitement automatique des langues (TAL). Le cours abordera des modèles de TAL statistiques classiques. Après un bref rappel de notions de probabilité appliquées aux textes, nous aborderons la représentation de documents, c.-à-d. l'encodage de textes, la tokenisation et la représentation de documents sous la forme vectorielle avec des techniques fondées sur les « sac de mots ». Nous étudierons également des modèles distributionnels pour la représentation de mots sous la forme de vecteurs, avec des applications en classification de textes et en similarité de mots. Les modèles de langage fondés sur les n-grammes s'en suivent, avec des applications à la génération de textes. Le dernier sujet abordé ce sont les étiqueteurs fondés sur des machines à état (tels que les modèles de Markov cachés) et leurs applications, par exemple en étiquetage morphosyntaxique.</t>
+         </p>
+   </resume>
+   <plan/>
+   <lieu>SCIENCES, Marseille Luminy</lieu>
+   <ref-intervenant ref="IN21048" />
+   <ref-intervenant ref="IN9941" />
+</unite>
+<unite id="ME5SIN-S51IN2A4">
+   <nom>Modélisation et résolution pour la décision</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Introduction aux différents aspects du raisonnement automatique, dont l’objectif est de permettre d’obtenir des solutions à tout type de problèmes uniquement à partir de leurs descriptions et grâce à des solveurs générant une preuve du résultat inspiré du raisonnement humain. Cette UE aborde les formalismes les plus simples, les problèmes SAT et CSP binaires, qui correspondent à des problèmes de décision, et étudie la façon de modéliser un problème dans ces formalismes, les méthodes de résolution arborescente (avec filtrages, heuristique de choix de variable, de valeur), et des solveurs existants (Minisat, Choco).</t>
+         </p>
+   </resume>
+   <plan/>
+   <lieu>SCIENCES, Marseille Luminy</lieu>
+   <ref-intervenant ref="IN12068" />
+   <ref-intervenant ref="IN12292" />
+</unite>
+<unite id="ME5SIN-S51IN2A5">
+   <nom>Fiabilité logicielle</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Méthodologie du test ; intégration continue.</t>
+         </p>
+   </resume>
+   <plan/>
+   <lieu>SCIENCES, Marseille Luminy</lieu>
+   <lieu>SCIENCES, Marseille St-Jérôme</lieu>
+   <ref-intervenant ref="IN3524" />
+   <ref-intervenant ref="IN36256" />
+</unite>
+<unite id="ME5SIN-S51IN2A6">
+   <nom>Analyse de programmes</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Analyse statique ; ingénierie inverse ; introduction aux outils et méthodes formelles.</t>
+         </p>
+   </resume>
+   <plan/>
+   <lieu>SCIENCES, Marseille Luminy</lieu>
+   <ref-intervenant ref="IN3524" />
+</unite>
+<unite id="ME5SIN-S51IN2A7">
+   <nom>Cryptographie</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Algorithmes cryptographiques – chiffrement symétrique, asymétrique et hachage.</t>
+         </p>
+   </resume>
+   <plan/>
+   <lieu>SCIENCES, Marseille Luminy</lieu>
+   <ref-intervenant ref="IN9224" />
+</unite>
+<unite id="ME5SIN-S51IN2B1">
+   <nom>Modélisation géométrique et maillages</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>La modélisation géométrique est l’ensemble des outils informatiques, numériques et mathématiques, qui combinés permettent de construire un modèle virtuel (ou modèle informatique) d’un objet réel. Cet objet peut être plus ou moins complexe, plus ou moins schématisé. Il peut être le fruit de l’imagination (jeux vidéo, films d’animation), d’une tendance ou une solution plus ou moins exacte d’un problème physique donné, voire un compromis entre les deux. Ce module propose un tour d’horizon des modèles géométriques les plus courants (surfaces à pôles, maillages, nuages de points) et des algorithmes spécifiques pour représenter, modifier et analyser des formes 3D dans les contextes de la CAO, du jeu vidéo et de l’impression 3D.</t>
+         </p>
+   </resume>
+   <plan/>
+   <lieu>SCIENCES, Marseille Luminy</lieu>
+   <ref-intervenant ref="IN8416" />
+</unite>
+<unite id="ME5SIN-S51IN2B2">
+   <nom>Programmation graphique</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Le développement d'interface de visualisation ou d'édition de données graphiques nécessite la gestion d'un canevas spécifique (où l'affichage 2D ou 3D est accéléré par la carte graphique), une boucle de rendu pour une visualisation dynamique, le contrôle des événements (clavier, souris, timers…). L'affichage utilise des primitives simples (points, lignes, faces triangulaires) et nécessite donc une modélisation géométrique des objets à afficher (structures de données, choix de la représentation). Environnement de développement : interfaces QT et pipeline graphique OpenGL.</t>
+         </p>
+   </resume>
+   <plan/>
+   <lieu>SCIENCES, Marseille Luminy</lieu>
+   <ref-intervenant ref="IN7722" />
+   <ref-intervenant ref="IN7779" />
+</unite>
+<unite id="ME5SIN-S51IN2B3">
+   <nom>Modélisation de surfaces 3D</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+   <lieu>SCIENCES, Marseille Luminy</lieu>
+   <ref-intervenant ref="IN4872" />
+</unite>
+<unite id="ME5SIN-S51IN2C1">
+   <nom>Intégration des données</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>L’objectif est d’intégrer des données provenant de plusieurs sources de données hétérogènes, pour une exploitation unifiée de façon matérialisée ou virtuelle. Y seront abordés les concepts et architectures d’entrepôts de données et de médiateurs, ainsi que le traitement optimisé de requêtes.</t>
+         </p>
+         <p>
+            <b>Contenu</b>
+            <t> :</t>
+         </p>
+         <ul>
+            <li>
+               <t>Mise en niveau en base de données</t>
+            </li>
+            <li>
+               <t>Entrepôt de données</t>
+            </li>
+            <li>
+               <t>Médiation</t>
+            </li>
+            <li>
+               <t>Optimisation</t>
+            </li>
+            <li>
+               <t>(SQL3)</t>
+            </li>
+         </ul>
+   </resume>
+   <plan/>
+   <lieu>SCIENCES, Marseille St-Jérôme</lieu>
+   <lieu>SCIENCES, Marseille Luminy</lieu>
+   <ref-intervenant ref="IN12544" />
+   <ref-intervenant ref="IN7722" />
+</unite>
+<unite id="ME5SIN-S51IN2C2">
+   <nom>Données post-relationnelles</nom>
+   <credit>3</credit>
+   <resume>
+         <ul>
+            <li>
+               <t>XML / XPath / XSL / Xquery</t>
+            </li>
+            <li>
+               <t>Json / NoSQL / NewSQL</t>
+            </li>
+         </ul>
+   </resume>
+   <plan/>
+   <lieu>SCIENCES, Marseille St-Jérôme</lieu>
+   <lieu>SCIENCES, Marseille Luminy</lieu>
+   <ref-intervenant ref="IN16625" />
+   <ref-intervenant ref="IN18" />
+</unite>
+<unite id="ME5SIN-S51IN2F1">
+   <nom>Calculabilité avancée</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>La théorie de la calculabilité s'intéresse essentiellement à la question suivante : au moyen d'un ordinateur, quelles fonctions peut-on calculer et quels problèmes peut-on résoudre ? Son développement est concomitant de l'apparition des principaux modèles de calcul (fonctions récursives, machines de Turing, lambda-calcul,...) et est très étroitement lié à la logique mathématique : théorème d'incomplétude de Gödel (qui sera abordé dans ce cours), lambda-calcul typé (cours Preuves et types)...</t>
+         </p>
+         <p>
+            <t>La complexité cherche quant à elle à mesurer le degré de difficulté d'un problème, typiquement en termes de temps de calcul et d'espace utilisé. Il s'agit donc de questions plus fines, qui font l'objet de nombreuses recherches actuelles, notamment en rapport avec la logique.</t>
+         </p>
+         <p>
+            <t>L'objectif de ce cours est de présenter les outils et résultats fondamentaux pour aborder ces questions.</t>
+         </p>
+         <p>
+            <t>Programme :</t>
+         </p>
+         <ul>
+            <li>
+               <t>Fonctions récursives, théorème de Kleene.</t>
+            </li>
+            <li>
+               <t>Machines de Turing, thèse de Church.</t>
+            </li>
+            <li>
+               <t>Arithmétique de Peano, théorème de Gödel.</t>
+            </li>
+            <li>
+               <t>Quelques méthodes et théorèmes de base en théorie de la complexité.</t>
+            </li>
+         </ul>
+   </resume>
+   <plan/>
+   <lieu>SCIENCES, Marseille Luminy</lieu>
+   <ref-intervenant ref="IN16208" />
+   <ref-intervenant ref="IN23203" />
+</unite>
+<unite id="ME5SIN-S51IN2F2">
+   <nom>Algorithmes à performance garantie</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Algorithmes d’approximation pour des problèmes NP-complets, algorithmes en ligne.</t>
+         </p>
+   </resume>
+   <plan/>
+   <lieu>SCIENCES, Marseille Luminy</lieu>
+   <ref-intervenant ref="IN7566" />
+</unite>
+<unite id="ME5SIN-S51IN2F3">
+   <nom>Théorie des graphes avancée</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Théorie des graphes, combinatoire, revêtements et complexes simpliciaux.</t>
+         </p>
+   </resume>
+   <plan/>
+   <lieu>SCIENCES, Marseille Luminy</lieu>
+</unite>
+<unite id="ME5SIN-S51IN2M01">
+   <nom>Travail d'étude et de recherche</nom>
+   <credit>6</credit>
+   <resume>
+         <p>
+            <t>Le but du projet est de mettre en oeuvre, de l'analyse à la programmation, les notions présentées en cours. C'est l'occasion, pour les étudiants, d'utiliser sur un cas pratique, les éléments exposées dans les UE. Travail effectué sous la direction pédagogique d'un enseignant, et donnant lieu à la rédaction d'un mémoire et d'une soutenance orale.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN2M03">
+   <nom>Interface homme-machine</nom>
+   <credit>3</credit>
+   <resume>
+         <ul>
+            <li>
+               <t>Qt / programmation événementielle</t>
+            </li>
+            <li>
+               <t>informatique graphique/OpenGL</t>
+            </li>
+            <li>
+               <t>Ergonomie/Responsive</t>
+            </li>
+            <li>
+               <t>mise en niveau en C++</t>
+            </li>
+         </ul>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN12883" />
+   <ref-intervenant ref="IN7722" />
+</unite>
+<unite id="ME5SIN-S51IN2M04">
+   <nom>Informatique et calcul quantique</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Cette unité d'enseignement a pour vocation de faire découvrir aux étudiants les spécificités et les possibilités qu'ouvrent le traitement quantique de l’information et de leur donner les bases pour décrire et analyser des circuits quantiques simples.</t>
+         </p>
+         <p>
+            <t>On montrera comment la mise au point d'algorithmes quantiques permet de résoudre certains problèmes de façon exponentiellement plus efficace que les algorithmes classiques traditionnels (recherche, tri, …), et notamment le problème de la factorisation des grands nombres. Il s’en suit que la mise au point d'un ordinateur quantique de grande taille remettrait en cause les algorithmes à clés publiques aujourd'hui utilisés pour sécuriser Internet (d’où la nécessité d’une post-quantum cryptography).</t>
+         </p>
+         <p>
+            <t>On introduira également les idées principales du domaine de la cryptographie quantique. On évoquera les possibilités offertes par ce nouveau paradigme dans d’autres champs de l’informatique, tels que le machine learning.</t>
+         </p>
+         <p>
+            <b>Contenu</b>
+            <t> :</t>
+         </p>
+         <ol>
+            <li>
+               <t>Fondamentaux du calcul quantique I (linéarité de la théorie, qubits, superpositions, intrication) ;</t>
+            </li>
+            <li>
+               <t>Fondamentaux du calcul quantique II (portes quantiques et circuits)</t>
+            </li>
+            <li>
+               <t>Algorithme quantique de Grover ; (iii) Algorithme de Shor et Cryptage RSA ;</t>
+            </li>
+            <li>
+               <t>Éléments de cryptographie quantique.</t>
+            </li>
+         </ol>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN23202" />
+   <ref-intervenant ref="IN37528" />
+</unite>
+<unite id="ME5SIN-S51IN2M05">
+   <nom>Programmation des processeurs graphiques</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Description en cours de rédaction.</t>
+         </p>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN10388" />
+</unite>
+<unite id="ME5SIN-S51IN2M06">
+   <nom>Programmation fonctionnelle</nom>
+   <credit>3</credit>
+   <resume>
+         <ul>
+            <li>
+               <t>Introduction à la programmation fonctionnelle, sur l'exemple du langage Ocaml (expressions, évaluation, types de base. polymorphisme, ordre supérieur).</t>
+            </li>
+            <li>
+               <t>Fonctions récursives, filtrage. Les diverses stratégies d'évaluation, application à la programmation d'un opérateur de point fixe.</t>
+            </li>
+            <li>
+               <t>Les types (sommes, types récursifs, polymorphes. arbres. filtrage).</t>
+            </li>
+            <li>
+               <t>Sémantique opérationnelle (liaisons, environnements, clôtures, évaluation des fonctions récursives).</t>
+            </li>
+            <li>
+               <t>Aspects impératifs (exceptions, entrées-sorties, séquencement, fichiers, références, tableaux, enregistrements).</t>
+            </li>
+            <li>
+               <t>Implantation du filtrage en Ocaml (termes formels, substitutions, filtrage).</t>
+            </li>
+         </ul>
+         <p>
+            <i>Contenu en cours d'actualisation</i>
+            <t>.</t>
+         </p>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN4955" />
+</unite>
+<unite id="ME5SIN-S51IN2M07">
+   <nom>Architecture Java Entreprise Edition et sécurité des applications</nom>
+   <credit>6</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN2M07A">
+   <nom>Architecture JEE</nom>
+   <credit>2</credit>
+   <resume>
+         <ul>
+            <li>
+               <t>Architecture n-tiers</t>
+            </li>
+            <li>
+               <t>partie accès aux données (JDBC/JPA)</t>
+            </li>
+            <li>
+               <t>partie métier (Spring, IoC, Composants métier)</t>
+            </li>
+            <li>
+               <t>partie application WEB (JSP/Servlet, Spring MVC, bootstrap)</t>
+            </li>
+         </ul>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN18" />
+</unite>
+<unite id="ME5SIN-S51IN2M07B">
+   <nom>Sécurité des applications</nom>
+   <credit>2</credit>
+   <resume>
+         <p>
+            <t>cyberedu (panorama des attaques – défenses standards).</t>
+         </p>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN1021" />
+</unite>
+<unite id="ME5SIN-S51IN2M08">
+   <nom>Méthodes numériques et probabilistes pour l’informatique</nom>
+   <credit>6</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN2M08A">
+   <nom>Aspects probabilistes pour l’informatique</nom>
+   <credit>2</credit>
+   <resume>
+         <p>
+            <t>En cours de rédaction.</t>
+         </p>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN25554" />
+</unite>
+<unite id="ME5SIN-S51IN2M08B">
+   <nom>Méthodes numériques pour l’informatique</nom>
+   <credit>2</credit>
+   <resume>
+         <p>
+            <t>En cours de rédaction.</t>
+         </p>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN14003" />
+   <ref-intervenant ref="IN7574" />
+</unite>
+<unite id="ME5SIN-S51IN3A1">
+   <nom>Sécurité internet réseaux</nom>
+   <credit>6</credit>
+   <resume>
+         <p>
+            <t>PKI, IPSec, VPN, infrastructures sécurisées avec et sans fil.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3A2">
+   <nom>Systèmes d'information d'entreprise</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Les objectifs de ce cours, multiples et bien identifiés, doivent permettre aux futurs cadres de développer des savoirs, savoir-faire et savoir-être en lien avec leurs futures responsabilités à court mais également moyen ou long termes.</t>
+         </p>
+         <p>
+            <t>Au travers du développement d’une culture générale autour des systèmes d’information dans leurs différentes dimensions métier, fonctionnelle, technique, il s’agit notamment (mais non exclusivement) de développer une capacité à utiliser de manière transverse les connaissances acquises, de se forger une approche structurée face à des problèmes ou des projets concrets, de perfectionner les capacités de présentation en public, ou encore d’intégrer systématiquement la dimension de qualité dans les réalisations menées (rédaction documentaire par exemple).</t>
+         </p>
+         <p>
+            <b>Mots clefs</b>
+            <t> : Systèmes d’information (SI), transversalité, anglais...</t>
+         </p>
+   </resume>
+   <plan>
+      <p>
+         <t>Les professionnels en devenir sont les acteurs de leur formation.</t>
+      </p>
+      <p>
+         <t>Ils sont par exemple amenés à analyser en groupe des situations tirées d’expériences terrain et à y apporter des solutions. Des présentations faites par eux autour de thèmes en lien avec les SI modernes rythment également les séances (une présentation en langue anglaise par groupes fait également partie intégrante des activités proposées). Dans le cadre de l’acquisition de compétences technologiques (déploiement de systèmes serveurs, de systèmes de virtualisation, de réseaux routés...), les futurs cadres sont amenés à simuler ex-nihilo un réseau informatique d’entreprise.</t>
+      </p>
+   </plan>
+   <ref-intervenant ref="IN616" />
+</unite>
+<unite id="ME5SIN-S51IN3A4">
+   <nom>Sécurité fonctionnelle et qualité</nom>
+   <credit>6</credit>
+   <resume>
+         <ul>
+            <li>
+               <t>Sécurité organisationnelle, méthodologies et normes.</t>
+            </li>
+            <li>
+               <t>Qualité logicielle – Référentiels et méthodologies.</t>
+            </li>
+         </ul>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3A6">
+   <nom>Sécurité des applications 2</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Audit fonctionnel et technique.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3A7">
+   <nom>Politiques et modèles de contrôle d'accès</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Théorie et pratique du contrôle d’accès ; réseaux, applicatifs et IAM.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3A8">
+   <nom>Veille sécurité</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Veille et séminaire.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3B1">
+   <nom>Fondamentaux pour l’informatique graphique</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Ce cours a pour objectif de donner aux étudiants les fondements théoriques et pratiques nécessaires à la mise en œuvre des méthodes qui seront présentées en Informatique Graphique, dans les autres cours de ce Master 2. Il s’agit d’une part de concepts algébriques (et de leur mise en œuvre au niveau algorithmique), permettant, entre autres, de calculer la projection d’un modèle géométrique à partir d’une caméra virtuelle mobile (et de faire évoluer cette caméra de manière fluide), et d’autre part de méthodes numériques permettant la résolution d’équation ou l’optimisation de critères sous contraintes.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3B2">
+   <nom>Modèles géométriques : représentations et traitement</nom>
+   <credit>6</credit>
+   <resume>
+         <p>
+            <t>Les modèles géométriques offrent un paysage varié (discrets, linéaires par morceaux, continus) et permettent ainsi de représenter le réel de différentes manières. Selon les besoins, les applications, les possibilités, on choisira d'utiliser une représentation plutôt qu'une autre. Ce module fera le point sur les modèles possibles d’une part, et les traitements associés d’autres part. Cette deuxième partie couvrira les méthodes récentes développées en « geometry processing », un domaine de plus en plus actif qui traite de l’acquisition, la reconstruction, l’analyse, la manipulation, la simulation et la transmission de modèles 3D complexes.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3B3">
+   <nom>Géométrie discrète</nom>
+   <credit>6</credit>
+   <resume>
+         <p>
+            <t>Le contexte de la géométrie discrète s’intègre dans le cadre général de la modélisation et l’analyse géométrique et topologique d’objets définis sur des structures régulières (par exemple les grilles régulières à deux ou trois dimensions) ou combinatoires (graphes, cartes, etc.). Généralement, les axiomes et propriétés de la géométrie euclidienne classiques ne sont plus valides lorsque l’on considère des ensembles de voxels et des redéfinitions sont à faire. L’originalité de ce domaine réside dans le fait qu’en exploitant les propriétés du support sur lequel sont décrits nos objets, nous pouvons obtenir des algorithmes efficaces, certifiés et précis pour répondre à des problèmes de caractérisation géométrique ou topologique d’objets discrets (2D, 3D, nD, etc.). Le caractère discret des données à traiter et donc l’utilité de l’approche discrète se retrouve dans de nombreux contextes applicatifs.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3B4">
+   <nom>Animation et rendu</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Ce module étudiera les procédés d’animation et de rendu en synthèse d’image, pour des applications temps réel ou image par image. Les techniques d’animation abordées porteront sur l’animation par interpolation, l’animation procédurale, les systèmes de particules, la cinématique, la capture de mouvements, l’animation comportementale, l’animation physique, la détection de collisions. Le rendu traitera des modèles d’illumination, des textures et de leurs multiples utilisations.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3B5">
+   <nom>Programmation graphique et applications industrielles</nom>
+   <credit>6</credit>
+   <resume>
+         <p>
+            <t>Manipuler un modèle 3D dans toutes les étapes de la production industrielle (modélisation, numérisation, réparation, traitements, préparation à la visualisation ou à l'impression) nécessite la satisfaction de contraintes, la conservation d'une sémantique, d'une qualité du maillage. Ce module permettra de mener de bout en bout le processus de prototypage d'un objet 3D, de la numérisation à l'impression numérique, ou à la visualisation sur l’internet. La majorité des enseignements de ce module sont donnés par des professionnels du secteur.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3D01">
+   <nom>Génie logiciel 2 et gestion de projets</nom>
+   <credit>6</credit>
+   <resume>
+         <ul>
+            <li>
+               <t>spécification / conception / design-pattern</t>
+            </li>
+            <li>
+               <t>méthodes agiles</t>
+            </li>
+            <li>
+               <t>intégration continue</t>
+            </li>
+            <li>
+               <t>MOA / MOE</t>
+            </li>
+            <li>
+               <t>Rédaction de documentation</t>
+            </li>
+            <li>
+               <t>Plannification de projets</t>
+            </li>
+         </ul>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN37076" />
+   <ref-intervenant ref="IN37097" />
+</unite>
+<unite id="ME5SIN-S51IN3D02">
+   <nom>Big data</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>L’objectif de cette UE est de découvrir les plateformes et techniques pour traiter des masses de données hétérogènes.</t>
+         </p>
+         <p>
+            <b>Contenu</b>
+            <t> :</t>
+         </p>
+         <ul>
+            <li>
+               <t>Architecture et technologies, programmation</t>
+            </li>
+            <li>
+               <t>Map/Reduce, HDFS</t>
+            </li>
+            <li>
+               <t>SGBD NoSQL</t>
+            </li>
+         </ul>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN12544" />
+</unite>
+<unite id="ME5SIN-S51IN3D04">
+   <nom>Gestion des données</nom>
+   <credit>6</credit>
+   <resume>
+         <p>
+            <t>Dans cette UE, nous étudierons d’une part les propriétés que doivent vérifier les données dans un univers standardisé et réglementé : qualité, sécurité, intégrité, vie privée, etc. D’autre part nous étudierons les algorithmes de base de fouille (data mining) afin de faire parler les données.</t>
+         </p>
+         <p>
+            <b>Contenu</b>
+            <t> :</t>
+         </p>
+         <ul>
+            <li>
+               <t>Rappel Statistiques de base</t>
+            </li>
+            <li>
+               <t>Qualité, analyse, data mining</t>
+            </li>
+            <li>
+               <t>Réglementation</t>
+            </li>
+         </ul>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN12544" />
+   <ref-intervenant ref="IN16625" />
+   <ref-intervenant ref="IN7722" />
+</unite>
+<unite id="ME5SIN-S51IN3D11">
+   <nom>Architecture des applications</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>L’objectif de cette UE est d’initier les étudiants à la réalisation d’applications basées sur des </t>
+            <b>architectures en couches</b>
+            <t>. Nous étudierons notamment l’architecture 3-tiers et son utilisation dans la plateforme JEE (Java Enterprise Edition).</t>
+         </p>
+         <p>
+            <t>Le cours présentera les technologies JPA (pour l’accès aux données), EJB (pour la réalisation d’une couche métier), JSF (pour la réalisation de la couche WEB) et CDI (pour la partie injection et intégration).</t>
+         </p>
+         <p>
+            <t>Nous étudierons également les architectures orientées services (SOA) basées sur l’utilisation de services WEB comme REST ou WSDL.</t>
+         </p>
+         <p>
+            <t>Nous terminerons par l’étude des applications WEB dotées d’une interface riche et implantées côté client. Nous étudierons notamment le framework ANGULAR et l’échange de données via les services WEB.</t>
+         </p>
+   </resume>
+   <plan>
+      <p>
+         <t>Le cours est essentiellement organisé autour de travaux pratiques de mise en application. C’est l’occasion d’étudier, d’utiliser et d’approfondir les notions présentées.</t>
+      </p>
+   </plan>
+   <ref-intervenant ref="IN18" />
+   <ref-intervenant ref="IN37426" />
+</unite>
+<unite id="ME5SIN-S51IN3D13">
+   <nom>Qualité logicielle</nom>
+   <credit>3</credit>
+   <resume>
+         <ul>
+            <li>
+               <t>Introduction : définition, coût de la non qualité, CMMI.</t>
+            </li>
+            <li>
+               <t>Normes et processus d’évaluation : critères de McCall, ISO/CEI 9126, ISO/IEC 25010.</t>
+            </li>
+            <li>
+               <t>Mesures et métriques du logiciel : indicateurs de la qualité du code, méthode Sqale, dette technique.</t>
+            </li>
+            <li>
+               <t>Accessibilité : W3C WCAG2.1.</t>
+            </li>
+            <li>
+               <t>Sécurité des applications web : vulnérabilités, protection.</t>
+            </li>
+            <li>
+               <t>Revues, inspections, audit : SonarQube, outils d’audit de sécurité de code source, scanners de vulnérabilité.</t>
+            </li>
+            <li>
+               <t>Gérer la qualité logicielle : définir un référentiel de bonnes pratiques, utiliser un gestionnaire de code, documenter le code et sa qualité, faire des tests unitaires et fonctionnels, utiliser un outil d’évaluation de la qualité du code, travailler en intégration continue.</t>
+            </li>
+         </ul>
+   </resume>
+   <plan>
+      <p>
+         <t>Les séances de TP auront pour but d’installer et configurer SonarQube en intégration continue et d’autres outils d’audit ou scanners de vulnérabilité, afin de disposer d’une plateforme pour améliorer la qualité du code en continu pendant la réalisation du projet de fin d’études. Une analyse de la qualité du code d’un projet effectué dans une autre unité d’enseignement sera réalisée pour tester la plateforme.</t>
+      </p>
+   </plan>
+   <ref-intervenant ref="IN25567" />
+   <ref-intervenant ref="IN37097" />
+</unite>
+<unite id="ME5SIN-S51IN3D20">
+   <nom>Analyse des données</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>L’analyse de données peut être divisée en deux parties : les statistiques descriptives et les statistiques inférentielles. La première partie est consacrée aux statistiques descriptives en commençant par les bases avant d’approfondir ce domaine et de s’orienter vers la fouille de données et les arbres de décisions. La seconde partie est dédiée aux statistiques inférentielles notamment à l’apprentissage automatique et profond. Les notions et théories de l’apprentissage introduiront l’utilisation de certaines librairies classiques de l’apprentissage automatique et profond comme Scikit-Learn et Tensorflow.</t>
+         </p>
+         <ul>
+            <li>
+               <t>Statistiques descriptives :</t>
+               <ul>
+                  <li>
+                     <t>Statistiques de base, lois de distribution.</t>
+                  </li>
+                  <li>
+                     <t>Fouille de données et arbre de décision.</t>
+                  </li>
+                  <li>
+                     <t>Représentations graphiques de statistiques.</t>
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <t>Statistiques inférentielles :</t>
+               <ul>
+                  <li>
+                     <t>Apprentissage Automatique</t>
+                  </li>
+                  <li>
+                     <t>Apprentissage profond</t>
+                  </li>
+               </ul>
+            </li>
+         </ul>
+         <p>
+            <b>Logiciels utilisés</b>
+            <t> : R/Rstudio pour le premier chapitre et certaines librairies classiques de l’apprentissage en Python de l’apprentissage comme Scikit-Learn et Tensorflow pour la seconde partie.</t>
+         </p>
+         <p>
+            <t>Des connaissances en Python seront utilisées.</t>
+         </p>
+   </resume>
+   <plan>
+      <p>
+         <t>L’organisation de cet enseignement de décline en 14h de cours et 13h de TP, il n’y a pas de TD.</t>
+      </p>
+      <ul>
+         <li>
+            <t>6h de cours et 6h de TP sont consacrées aux statistiques descriptives.</t>
+         </li>
+         <li>
+            <t>8h de cours et 7h de TP sont dédiés à l’apprentissage automatique.</t>
+         </li>
+      </ul>
+   </plan>
+   <ref-intervenant ref="IN19444" />
+   <ref-intervenant ref="IN7722" />
+</unite>
+<unite id="ME5SIN-S51IN3D21">
+   <nom>Analyse et reporting pour le décisionnel</nom>
+   <credit>3</credit>
+   <resume>
+         <ul>
+            <li>
+               <t>Analyse de données et « data-science »</t>
+               <ul>
+                  <li>
+                     <t>Recueil, compréhension et formalisation d’une demande d’analyse de données</t>
+                  </li>
+                  <li>
+                     <t>Principes et méthodologies d’analyse prédictive</t>
+                  </li>
+                  <li>
+                     <t>Introduction à l’apprentissage automatique</t>
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <t>Solutions de restitution et « front-end »</t>
+               <ul>
+                  <li>
+                     <t>Rapports, tableaux de bord et indicateurs</t>
+                  </li>
+                  <li>
+                     <t>Etudes de cas</t>
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <t>Etude d’un outil de dashboarding majeur</t>
+               <ul>
+                  <li>
+                     <t>Formation à Qlikview et à la découverte de données</t>
+                  </li>
+                  <li>
+                     <t>Décorticage d’une application existante</t>
+                  </li>
+                  <li>
+                     <t>Réalisation de tableaux de bord avec Qlikview</t>
+                  </li>
+               </ul>
+            </li>
+         </ul>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3D22">
+   <nom>Conception d’applications décisionnelles</nom>
+   <credit>3</credit>
+   <resume>
+         <ul>
+            <li>
+               <t>Modélisation d’un entrepôt de données</t>
+               <ul>
+                  <li>
+                     <t>Modèle logique et physique de données</t>
+                  </li>
+                  <li>
+                     <t>Différentes paradigmes de modélisation</t>
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <t>Performance d’un système d’information décisionnel</t>
+               <ul>
+                  <li>
+                     <t>Optimisation de requêtes</t>
+                  </li>
+                  <li>
+                     <t>Optimisation de bases de données et de serveurs</t>
+                  </li>
+                  <li>
+                     <t>Indexes, statistiques et « tuning »</t>
+                  </li>
+               </ul>
+            </li>
+            <li>
+               <t>Conception d’une architecture d’analyse de données</t>
+               <ul>
+                  <li>
+                     <t>Intégration dans le système d’information</t>
+                  </li>
+                  <li>
+                     <t>Principes et bonnes pratiques d’architecture d’entreprise</t>
+                  </li>
+                  <li>
+                     <t>« Big data » et « data-lakes »</t>
+                  </li>
+               </ul>
+            </li>
+         </ul>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3D23">
+   <nom>Business process</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Un business process (BP) ou processus métier consiste en un ensemble d’activités menées en coordination dans un environnement organisationnel et technique. Le but de cette UE cours est d’étudier les concepts, méthodes et techniques pour concevoir, mettre en œuvre et analyser des BP. Nous étudierons le cycle de vie d’un BP, le langage de modélisation standard BPMN, la notion de workflow. Les travaux pratiques seront réalisées sur des plateformes comme Bizagi, Bonita, ou Signavio.</t>
+         </p>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN12544" />
+</unite>
+<unite id="ME5SIN-S51IN3D24">
+   <nom>Cloud computing</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Le Cloud Computing désigne un univers de ressources (stockage, calcul) utilisables de manière élastique (à la demande) à travers Internet. Dans cette UE, nous étudierons les principaux concepts : virtualisation, sécurisation, les modèles de services IaaS, PaaS, SaaS, les types de cloud (privé, public, etc.). Nous examinerons aussi les défis, risques et opportunités soulevés par l’adoption du Cloud. Les travaux pratiques seront réalisés sur une des plateformes de Cloud comme Microsoft Azure ou AWS.</t>
+         </p>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN12544" />
+</unite>
+<unite id="ME5SIN-S51IN3E02">
+   <nom>Modélisation et résolution pour l'optimisation</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Cette UE poursuit l’introduction au raisonnement automatique en étudiant des formalismes plus complexes et proches des problèmes réels, qui sont souvent des problèmes d’optimisation : les CSP valués non binaires (et d’autres formalismes ?). On étudiera les méthodes de résolution arborescente associées, les méthodes de résolution incomplète (recherche locale/réparation) et des solveurs d’optimisation (Toulbar, LocalSolver).</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3E03">
+   <nom>Data science et deep learning</nom>
+   <credit>9</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3E04">
+   <nom>Traitement du langage naturel et linguistique</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Le traitement automatique du langage naturel est à la confluence de nombreuses disciplines, dont la linguistique, l’apprentissage automatique, l’intelligence artificielle… L’objectif est de faire un tour d'horizon des modèles linguistiques, problématiques d’annotation et d’évaluation sur corpus, les approches modulaires, les différentes tâches de reconnaissance et synthèse du langage (niveaux syntaxique, sémantique, discursif). Ces thématiques seront développées dans un contexte multilingue, en couvrant les problématiques de l’adaptation au domaine.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3E06">
+   <nom>Apprentissage par renforcement</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>L’apprentissage par renforcement vise à l’acquisition automatisée de compétences pour la prise de décisions (actions ou contrôle) en milieu complexe et incertain. Il s’agit d’apprendre par l'expérience une stratégie comportementale (appelée politique) en fonction des échecs ou succès constatés. Ce paradigme d’apprentissage est très utilisé en robotique et pour des problématiques complexes d’intelligence artificielle (Voir le logiciel AlphaGo). Certains principes généraux, comme le dilemme exploitation / exploration, sont introduits par l’étude des bandits (les machines à sous) puis le cours aborde les notions de Processus de Décision Markoviens (MDP, POMDP), d’apprentissage de politique (policy iteration, value iteration, policy gradient...), et de deep reinforcement learning.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3E07">
+   <nom>Signal, apprentissage et multimédia</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Cette UE abordera des problématiques spécifiques au traitement de données multimédia en général, des données de type séquences ou signaux telles que l'audio, les images, les vidéos, et pour des tâches de modélisation, de classification, de segmentation, ou encore d’inpainting. L’UE introduira des notions telles que le filtrage, la convolution, l’échantillonnage, mais aussi des aspects perceptifs et des problématiques de traitement de données multimodales et cross modales.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3E08">
+   <nom>Prédictions structurées pour le traitement automatique du langage naturel</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Cette UE a pour ambition de faire une exploration en profondeur des modèles de séquence pour le traitement automatique du langage. Les applications envisagées sont la traduction automatique, la génération de texte, résumé automatique, les agents conversationnels, la reconnaissance de la parole. Seront vues en détails les représentations de mots (méthodes d’apprentissage des embeddings), les différentes architectures récurrentes, bidirectionnelles, multicouches, ainsi que les mécanismes d’attention (pointer networks, copynets), les réseaux à mémoire, etc.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3E09">
+   <nom>Raisonnement automatique en milieu industriel</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Applications du raisonnement automatique pour la résolution de problèmes en milieu industriel : planification de tâches, diagnostic (déterminer les causes possibles de panne), allocation de ressources, etc.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3E3A">
+   <nom>Science des données</nom>
+   <credit>2</credit>
+   <resume>
+         <p>
+            <t>L’objectif de ce cours est de former les étudiants à pouvoir répondre à une compétition Kaggle quelle qu’elle soit avec des méthodes avancées de machine learning. Le cours dresse un panorama avancé de l’apprentissage automatique qu’il s’agisse des paradigmes d’apprentissage (supervisé, non supervisé, semi-supervisé, actif, transductif…), des tâches (classification, régression, ranking, metric learning, prédiction structurée, classification multilabel, multi-instances ou multitaches) ou des méthodes.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3E3B">
+   <nom>Deep learning</nom>
+   <credit>2</credit>
+   <resume>
+         <p>
+            <t>Le deep learning a permis des avancées majeures pour des problèmes difficiles tels que des tâches de perception (vision, audition), de traitement de la langue (traduction...). Cette technologie envahit de nombreux champs applicatifs est est intégrée dans des systèmes industriels chez de multiples acteurs y compris les plus grands (Google, Microsoft, Amazon, Facebook, etc). L’objectif du cours est de former les étudiants à l’utilisation de toolkits de deep learning et à la conception de systèmes basés sur des architectures classiques, autoencodeurs, réseaux convolutionnels, réseaux récurrents, et des idées récentes telles que les embeddings, l’adversarial learning, les mécanismes d’attention…</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3E3C">
+   <nom>Maths pour l’intelligence artificielle</nom>
+   <credit>2</credit>
+   <resume>
+         <p>
+            <t>L’objectif de cette unité est de mettre à niveau les étudiants sur l’ensemble des concepts mathématiques nécessaires à la maîtrise des méthodes d’intelligence artificielle et d’apprentissage abordées au cours du M2. Elle traitera des concepts suivants : probabilités (lois usuelles discrètes et continues, loi conditionnelles, indépendance...), statistiques (lois usuelles, estimation, corrélations, tests...), algèbre linéaire (opérations matricielles, tenseurs, factorisation...), optimisation continue (différentiabilité, convexité, optimalité, algorithmes).</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN4M1">
+   <nom>Travail d'étude et de recherche S4</nom>
+   <credit>6</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN4M2">
+   <nom>Stage de cinq à six mois</nom>
+   <credit>24</credit>
+   <resume>
+         <p>
+            <t>Recherche d'un stage. Validation du sujet de stage. Suivi du bon déroulement du stage. Aide à la rédaction du mémoire de stage. Soutenance et évaluation du stage.</t>
+         </p>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51PP1M2">
+   <nom>Environnement et R&amp;D en informatique</nom>
+   <credit>2</credit>
+   <resume>
+         <p>
+            <t>Description en cours de rédaction.</t>
+         </p>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN12141" />
+</unite>
+<unite id="ME5SIN-S51PP2M02">
+   <nom>Communication</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Chapitre 1 : Théories de la communication :</t>
+         </p>
+         <ul>
+            <li>
+               <t>La théorie mathématique de l’information (Shannon, Weaver), la cybernétique (Wiener)</t>
+            </li>
+            <li>
+               <t>La théorie de Palo Alto ( Bateson, Watzlawick) et la théorie de la communication par les processus (Mucchielli)</t>
+            </li>
+         </ul>
+         <p>
+            <t>Chapitre 2 : Rôle de l’interculturalité dans le travail en équipe :</t>
+         </p>
+         <ul>
+            <li>
+               <t>L’enquête interculturelle de Hofstede pour IBM</t>
+            </li>
+            <li>
+               <t>La gestuelle et le paralangage et la proxémie dans le monde (Hall)</t>
+            </li>
+         </ul>
+         <p>
+            <t>Chapitre 3 : Notions de management et de travail collaboratif</t>
+         </p>
+         <ul>
+            <li>
+               <t>Le travail collaboratif vs le travail coopératif</t>
+            </li>
+            <li>
+               <t>La notion de groupes</t>
+            </li>
+            <li>
+               <t>Les compétences managériales</t>
+            </li>
+         </ul>
+         <p>
+            <i>Contenu en cours d'actualisation</i>
+            <t>.</t>
+         </p>
+   </resume>
+   <plan/>
+   <ref-intervenant ref="IN12969" />
+</unite>
+<unite id="ME5SIN-S51PP3M2">
+   <nom>Communication 2</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>L’étudiant apprend à effectuer un bilan de son parcours de formation, à élaborer un projet professionnel personnel, à cerner ses motivations et à enrichir ses connaissances des métiers et du marché de l’informatique pour se constituer un portefeuille de compétences.</t>
+         </p>
+         <ul>
+            <li>
+               <t>Valorisation du parcours de formation</t>
+            </li>
+            <li>
+               <t>Clarification des motivations et de leurs incidences sur des choix professionnels</t>
+            </li>
+            <li>
+               <t>Identification des aptitudes et des compétences,</t>
+            </li>
+            <li>
+               <t>Positionnement du projet personnel et professionnel</t>
+            </li>
+            <li>
+               <t>Ajustement des profils annonce / candidature</t>
+            </li>
+            <li>
+               <t>Préparation aux entretiens de recrutement</t>
+            </li>
+            <li>
+               <t>Rédaction de curriculum vitae et de lettres de motivation</t>
+            </li>
+         </ul>
+   </resume>
+   <plan>
+      <p>
+         <t>Le séminaire privilégie la mise en situation des étudiants. Les apports méthodologiques et techniques alternent avec des phases de production écrite ou orale.</t>
+      </p>
+   </plan>
+   <ref-intervenant ref="IN12969" />
+   <ref-intervenant ref="IN14758" />
+</unite>
+<unite id="ME5SIN-SUP100">
+   <nom>Stage de M1</nom>
+   <credit>6</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3C1">
+   <nom>Algorithmique et complexité</nom>
+   <credit>6</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3C11">
+   <nom>Introduction à la logique modale</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3C12">
+   <nom>Modèles de calcul naturel - MOCANA</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3C13O">
+   <nom>Fondements de la PPC et SAT</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3C14O">
+   <nom>Théorie métrique des graphes</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3C15O">
+   <nom>Algorithmique distribuée</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3C16O">
+   <nom>Vérification : de la théorie à la pratique</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3C17">
+   <nom>Logiques computationnelles</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3C18">
+   <nom>Ensembles ordonnés en combinatoire</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3C19">
+   <nom>Optimisation combinatoire</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3C2">
+   <nom>Logique et automates</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3C20">
+   <nom>Théorie des automates : extensions et applications</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3C21">
+   <nom>Modélisation et simulation à événements discrets</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN3C22">
+   <nom>ASP : fondements théoriques, calcul et applications</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN4C0">
+   <nom>Logique et automates</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51IN4C5">
+   <nom>Initiation à la recherche IMD</nom>
+   <credit>24</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51MA3C23O">
+   <nom>Sémantique dénotationnelle et logique linéaire</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51MA3C24O">
+   <nom>Dynamique symbolique</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51MA3C25">
+   <nom>Topologie algébrique discrète – topologie algorithmique</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51MA3C26">
+   <nom>Logique catégorique d'ordre supérieur</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51MA3C27">
+   <nom>Réalisabilité classique</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51MA3C28">
+   <nom>Combinatoire des mots</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51MA3C29">
+   <nom>Théorie algorithmique des nombres</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51MA3C3">
+   <nom>Modèles de calcul, systèmes dynamiques et théorie algorithmique des nombres</nom>
+   <credit>6</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51MA3C30">
+   <nom>Théorie de l'information : algorithmique pour la cryptographie et le codage</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51MA3C31">
+   <nom>Introduction aux systèmes dynamiques et à la théorie ergodique</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51MA3C32">
+   <nom>Théorie de Ramsey</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S51PP4M1">
+   <nom>PPPE : communication scientifique en anglais</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S53IN3C7">
+   <nom>Théorie de l'apprentissage et statistique non paramétrique</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S60IN3B2">
+   <nom>Frameworks IoT</nom>
+   <credit>3</credit>
+   <resume>
+         <p>
+            <t>Ce module introduit des frameworks IoT qui permettent d’intégrer des « objets connectés » dans une infrastructure informatique jusqu’au cloud. D’une part, on étudie l’architecture de la communication Bluetooth LE côté central (objet connecté) et client (smart phone Android), d’autre part on étudie des frameworks basés sur IP(v6), notamment OMA LWM2M, MQTT et d’autres selon les tendances du marché.</t>
+         </p>
+         <p>
+            <t>Également, on étudiera les architectures réseau avec edge router / proxy d’intérêt pour la sécurité et le passage à l’échelle de l’IoT.</t>
+         </p>
+   </resume>
+   <plan>
+      <p>
+         <t>Différents frameworks IoT ainsi que leur mise en œuvre sont sont présentés en CM. Lors des TD/TP, les étudiants complètent une application distribuée pour le smart lighting avec des aspects de fonction, de sécurisation et d’intégration avec d’autres infrastructures informatiques. Dans la mesure que ce module est mutualisé avec le Master Informatique, les TPs peuvent être adaptés aux différents publics avec un but commun. Ceci représentera un projet open source qui pourra être développé d’année en année. La mise en oeuvre dans la première année concerne la connectivité Bluetooth LE ainsi qu'une connectivité simple avec OMA LWM2M.</t>
+      </p>
+   </plan>
+</unite>
+<unite id="ME5SIN-S60IN3B3">
+   <nom>Sécurité logicielle pour systèmes embarqués</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S64AL1I1">
+   <nom>Introduction aux sciences cognitives</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S64AL1I3">
+   <nom>Langage et cognition</nom>
+   <credit>6</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
+<unite id="ME5SIN-S64BI1M2">
+   <nom>Introduction à la neurobiologie</nom>
+   <credit>3</credit>
+   <resume>
+   </resume>
+   <plan/>
+</unite>
 
 </master>

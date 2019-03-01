@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" xmlns:xsi="http:/&gt;www.w3.org/2001/XMLSchema-instance">
+  <xs:import namespace="http:/&gt;www.w3.org/2001/XMLSchema-instance" schemaLocation="xsi.xsd"/>
   <xs:element name="master">
     <xs:complexType>
       <xs:sequence>
@@ -8,6 +9,7 @@
         <xs:element maxOccurs="unbounded" ref="semestre"/>
         <xs:element maxOccurs="unbounded" ref="unite"/>
       </xs:sequence>
+      <xs:attribute ref="xsi:noNamespaceSchemaLocation" use="required"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="intervenant">
@@ -21,12 +23,14 @@
     </xs:complexType>
   </xs:element>
   <xs:element name="mail" type="xs:string"/>
-  <xs:element name="site" type="xs:anyURI"/>
+  <xs:element name="site">
+    <xs:complexType/>
+  </xs:element>
   <xs:element name="parcours">
     <xs:complexType>
       <xs:sequence>
         <xs:element ref="nom"/>
-        <xs:element maxOccurs="unbounded" ref="responsable"/>
+        <xs:element ref="responsable"/>
         <xs:element ref="description"/>
         <xs:element maxOccurs="unbounded" ref="debouche"/>
         <xs:element maxOccurs="unbounded" ref="ref-semestre"/>
@@ -38,7 +42,14 @@
       <xs:attribute name="ref" use="required" type="xs:NCName"/>
     </xs:complexType>
   </xs:element>
-  <xs:element name="description" type="xs:string"/>
+  <xs:element name="description">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" ref="p"/>
+        <xs:element minOccurs="0" ref="ul"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
   <xs:element name="debouche" type="xs:string"/>
   <xs:element name="ref-semestre">
     <xs:complexType>
@@ -48,7 +59,7 @@
   <xs:element name="semestre">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" maxOccurs="unbounded" ref="bloc-unite"/>
+        <xs:element maxOccurs="unbounded" ref="bloc-unite"/>
       </xs:sequence>
       <xs:attribute name="id" use="required" type="xs:NCName"/>
     </xs:complexType>
@@ -74,27 +85,72 @@
         <xs:element ref="credit"/>
         <xs:element ref="resume"/>
         <xs:element ref="plan"/>
-        <xs:element ref="lieu"/>
-        <xs:element maxOccurs="unbounded" ref="ref-intervenant"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="lieu"/>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="ref-intervenant"/>
       </xs:sequence>
       <xs:attribute name="id" use="required" type="xs:NCName"/>
     </xs:complexType>
   </xs:element>
-  <xs:element name="credit" type="xs:integer"/>
-  <xs:element name="resume" type="xs:string"/>
-  <xs:element name="plan">
+  <xs:element name="credit" type="xs:string"/>
+  <xs:element name="resume">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="p"/>
+        <xs:element ref="ul"/>
+        <xs:element ref="ol"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ol">
     <xs:complexType>
       <xs:sequence>
-        <xs:element maxOccurs="unbounded" ref="chapitre"/>
+        <xs:element maxOccurs="unbounded" ref="li"/>
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-  <xs:element name="chapitre" type="xs:string"/>
-  <xs:element name="lieu" type="xs:NCName"/>
+  <xs:element name="plan">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="p"/>
+        <xs:element minOccurs="0" ref="ul"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="lieu" type="xs:string"/>
   <xs:element name="ref-intervenant">
     <xs:complexType>
       <xs:attribute name="ref" use="required" type="xs:NCName"/>
     </xs:complexType>
   </xs:element>
   <xs:element name="nom" type="xs:string"/>
+  <xs:element name="p">
+    <xs:complexType>
+      <xs:choice maxOccurs="unbounded">
+        <xs:element ref="b"/>
+        <xs:element ref="t"/>
+        <xs:element ref="i"/>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="i" type="xs:string"/>
+  <xs:element name="ul">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" maxOccurs="unbounded" ref="li"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="li">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element ref="t"/>
+          <xs:element ref="ul"/>
+        </xs:choice>
+        <xs:element minOccurs="0" ref="b"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="b" type="xs:string"/>
+  <xs:element name="t" type="xs:string"/>
 </xs:schema>
