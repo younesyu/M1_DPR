@@ -20,8 +20,8 @@
 	<html>
     <head>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" type="text/css" href="../../css/style.css" />
-        <link rel="stylesheet" type="text/css" href="../../css/descr.css" />
+        <link rel="stylesheet" type="text/css" href="../../xsl/css/style.css" />
+        <link rel="stylesheet" type="text/css" href="../../xsl/css/descr.css" />
     </head>
     <body>
     <xsl:copy-of select="$menuLv1"/>
