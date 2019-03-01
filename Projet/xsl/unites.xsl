@@ -72,7 +72,10 @@
         <br />
         <h3>Lieu : </h3> <xsl:value-of select="lieu"/>  <br />  
         <br />
-        <h3>Intervenants : </h3> <xsl:apply-templates select="ref-intervenant" /> 
+        <h3>Intervenants : </h3> 
+        <xsl:for-each select="./ref-intervenant">
+                 <a href="../intervenants/{id(./@ref)/nom}.html"><xsl:value-of select="id(./@ref)/nom"/> </a>>>>>;
+         </xsl:for-each>
         <br />
         </div>
         <div class="data">
