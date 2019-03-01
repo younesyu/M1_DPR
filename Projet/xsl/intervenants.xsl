@@ -23,6 +23,7 @@
 	<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 	<html>
   <head>
+    <title>Listes des intervenants</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="../css/descr.css" />
   </head>
