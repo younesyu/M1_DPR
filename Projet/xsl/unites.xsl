@@ -23,12 +23,12 @@
                 <xsl:value-of select="nom"/>
               </h2>
               <p>
-              crédits : <xsl:value-of select="credit"/>  <br />   
-              résumé : <xsl:value-of select="resume"/>   <br />   
-              lieu : <xsl:value-of select="lieu"/>  <br />  
-              intervenants :
+              Crédits : <xsl:value-of select="credit"/>  <br />   
+              Résumé : <xsl:value-of select="resume"/>   <br />   
+              Lieu : <xsl:value-of select="lieu"/>  <br />  
+              Intervenants :
                <xsl:for-each select="./ref-intervenant"> 
-                 <p><a href="intervenants/{id(./@ref)/nom}.html"><xsl:value-of select="id(./@ref)/nom"/> </a></p>
+                 <p><a href="out/intervenants/{id(./@ref)/nom}.html"><xsl:value-of select="id(./@ref)/nom"/> </a></p>
                </xsl:for-each>
             </p>
             </xsl:document>
@@ -91,16 +91,16 @@
     <xsl:value-of select="nom"/>
     </h2>
     <p>
-      crédits : <xsl:value-of select="credit"/>  <br />   
-      résumé : <xsl:value-of select="resume"/>   <br />   
-      lieu : <xsl:value-of select="lieu"/>  <br />  
-      intervenants : <xsl:apply-templates select="ref-intervenant" /> 
+      Crédits : <xsl:value-of select="credit"/>  <br />   
+      Résumé : <xsl:value-of select="resume"/>   <br />   
+      Lieu : <xsl:value-of select="lieu"/>  <br />  
+      Intervenants : <xsl:apply-templates select="ref-intervenant" /> 
     </p>
     <xsl:apply-templates select="./plan" /> 
   </xsl:template>
 
   <xsl:template match="ref-intervenant">
-   <a href="../intervenants/{id(@ref)/nom}.html"><xsl:value-of select="id(@ref)/nom"/> </a>&#xA0;
+   <a href="../out/intervenants/{id(@ref)/nom}.html"><xsl:value-of select="id(@ref)/nom"/> </a>&#xA0;
   </xsl:template>
 
 </xsl:stylesheet>
