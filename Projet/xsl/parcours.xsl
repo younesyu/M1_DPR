@@ -20,9 +20,11 @@
 	<html>
     <head>
         <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="../../css/style.css" />
         <link rel="stylesheet" type="text/css" href="../../css/descr.css" />
     </head>
     <body>
+    <xsl:copy-of select="$menuLv1"/>
     <h2 id="title">
     Parcours <xsl:value-of select="nom"/>
     </h2>

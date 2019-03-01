@@ -1,4 +1,4 @@
-<xsl:stylesheet
+  <xsl:stylesheet
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     version="1.0">
 
@@ -23,10 +23,13 @@
 	<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 	<html>
   <head>
+    <title>Listes des intervenants</title>
     <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" />
     <link rel="stylesheet" type="text/css" href="../css/descr.css" />
   </head>
   <body>
+      <xsl:copy-of select="$menu"/>
       <h1 id="title">Liste des intervenants</h1>
       <div class="container">
         <xsl:apply-templates select="//intervenant" />
@@ -57,9 +60,11 @@
 			<html>
       <head>
         <meta charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="../../css/style.css" />
         <link rel="stylesheet" type="text/css" href="../../css/descr.css" />
       </head>
       <body>
+          <xsl:copy-of select="$menuLv1"/>
           <h1 id="title">
             <xsl:value-of select="nom"/>
           </h1>

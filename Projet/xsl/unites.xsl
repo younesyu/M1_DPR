@@ -14,23 +14,33 @@
 
 <xsl:document href="./unites.html">
 	<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
-	<html><head><meta charset="utf-8"/></head><body>
-        <h1>Liste des unités d'enseignements</h1>
-         <xsl:copy-of select="$menu"/>
-        <xsl:apply-templates select="//unite" />
-        <xsl:for-each select="//unite">      
-            <xsl:document href="./unites/{./nom}.html">
-              <h2>
-                <xsl:value-of select="nom"/>
-              </h2>
-              <p>
-              crédits : <xsl:value-of select="credit"/>  <br />   
-              résumé : <xsl:value-of select="resume"/>   <br />   
-              lieu : <xsl:value-of select="lieu"/>  <br />  
-              intervenants : <xsl:apply-templates select="ref-intervenant" /> 
-            </p>
-            </xsl:document>
+	<html>
+  <head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" type="text/css" href="../css/descr.css" />
+  <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  </head>
+  <body>
+    <xsl:copy-of select="$menu"/>
+    <h1 id="title">Liste des unités d'enseignements</h1>
+    <div class="container">
+    <xsl:apply-templates select="//unite" />
+    <xsl:for-each select="//unite">      
+        <xsl:document href="./unites/{./nom}.html">
+          <div class="unite">
+          <h2>
+            <xsl:value-of select="nom"/>
+          </h2>
+          <p>
+          crédits : <xsl:value-of select="credit"/>  <br />   
+          résumé : <xsl:value-of select="resume"/>   <br />   
+          lieu : <xsl:value-of select="lieu"/>  <br />  
+          intervenants : <xsl:apply-templates select="ref-intervenant" /> 
+        </p>
+        </div>
+        </xsl:document>
         </xsl:for-each>
+        </div>
 	</body></html>
       </xsl:document>
 
@@ -44,9 +54,11 @@
 		<html>
     <head>
     <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="../../css/style.css" />
     <link rel="stylesheet" type="text/css" href="../../css/descr.css" />
     </head>
     <body>
+      <xsl:copy-of select="$menuLv1"/>
       <h2 id="title">
         <xsl:value-of select="nom"/>
       </h2>
@@ -62,7 +74,10 @@
         <br />
         <h3>Lieu : </h3> <xsl:value-of select="lieu"/>  <br />  
         <br />
-        <h3>Intervenants : </h3> <xsl:apply-templates select="ref-intervenant" /> 
+        <h3>Intervenants : </h3> 
+        <xsl:for-each select="./ref-intervenant">
+                 <a href="../intervenants/{id(./@ref)/nom}.html"><xsl:value-of select="id(./@ref)/nom"/> </a>;
+         </xsl:for-each>
         <br />
         </div>
         <div class="data">
@@ -85,20 +100,26 @@
 </xsl:template>
 
 <xsl:template match="unite">
+   <div class="unite">
    <h2>
     <xsl:value-of select="nom"/>
     </h2>
     <p>
-      crédits : <xsl:value-of select="credit"/>  <br />   
-      résumé : <xsl:value-of select="resume"/>   <br />   
-      lieu : <xsl:value-of select="lieu"/>  <br />  
-      intervenants : <xsl:apply-templates select="ref-intervenant" /> 
+      <h3>Crédits : </h3> <xsl:value-of select="credit"/>  <br />   
+      <br />
+      <h3>Résumé : </h3> <xsl:value-of select="resume"/>   <br />   
+      <br />
+      <h3>Lieu : </h3> <xsl:value-of select="lieu"/>  <br />  
+      <br />
+      <h3>Intervenants : </h3> <xsl:apply-templates select="ref-intervenant" /> 
+      <br />
     </p>
+    </div>
     <xsl:apply-templates select="./plan" /> 
   </xsl:template>
 
   <xsl:template match="ref-intervenant">
-   <a href="../intervenants/{id(@ref)/nom}.html"><xsl:value-of select="id(@ref)/nom"/> </a>&#xA0;
+   <a href="./intervenants/{id(@ref)/nom}.html"><xsl:value-of select="id(@ref)/nom"/> </a>&#xA0;
   </xsl:template>
 
 </xsl:stylesheet>
