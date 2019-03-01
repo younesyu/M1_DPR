@@ -1,13 +1,12 @@
 <xsl:stylesheet
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    version="1.0">
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    version="2.0">
 
 <xsl:output
-   method="html"                   
-   version="1.0"                  
+   method="xhtml"                                    
    encoding="utf-8"             
-   indent="yes"                          
-   xml-declaration="yes"                    
+   indent="yes"                                             
    />
 
 
@@ -15,7 +14,7 @@
 <xsl:template name="mesParcours">
 
 <xsl:for-each select="//parcours">
-    <xsl:document href="./parcours/{./nom}.html">
+    <xsl:result-document href="./parcours/{./nom}.html">
 	<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 	<html>
     <head>
@@ -62,7 +61,7 @@
         </div>
 	</body>
     </html>
-    </xsl:document>
+    </xsl:result-document>
 </xsl:for-each>
 </xsl:template>
 
