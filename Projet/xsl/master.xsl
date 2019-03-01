@@ -21,24 +21,23 @@
     <html>
     <head>
 		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
 		<meta charset="utf-8"/>
-      <title>Liste des enseignements</title>
+      <title>Formations Informatique AMU</title>
     </head>
     <body>
-		<h1>Site web du master Informatique de l'université d'Aix-Marseille</h1>
-      <xsl:copy-of select="$menu"/>
-		<p>Le master Informatique a pour vocation la formation de professionnels de l'informatique au niveau bac+5. L'objectif est d'offrir aux étudiants un large spectre de compétences et de savoirs afin de rendre accessibles des emplois de haut niveau dans le monde de l'entreprise, ainsi que dans celui de la recherche, ou dans d'autres organisations. La mention informatique offre une palette de six parcours adaptés à plusieurs secteurs de l'informatique. Les diplômés auront donc accès à une grande diversité de métiers et de carrières. </p>
-		
-		<br /><br />
-
-		<p>Le master comporte quatres parcours :</p>
-		<ul>
+    <xsl:copy-of select="$menu"/>
+		<h1 id="title">Master Informatique de l'Université d'Aix-Marseille</h1>
+		<div class="container">
+    <div class="data">
+    <p>Le master Informatique a pour vocation la formation de professionnels de l'informatique au niveau bac+5. L'objectif est d'offrir aux étudiants un large spectre de compétences et de savoirs afin de rendre accessibles des emplois de haut niveau dans le monde de l'entreprise, ainsi que dans celui de la recherche, ou dans d'autres organisations. La mention informatique offre une palette de six parcours adaptés à plusieurs secteurs de l'informatique. Les diplômés auront donc accès à une grande diversité de métiers et de carrières. </p>
+		<p>Le master comporte six parcours :</p>
 		 <xsl:for-each select="//parcours">      
-                <li> <p><xsl:value-of select="./nom"/> : </p> </li>
-				<ul> <li><p><xsl:value-of select="./description"/> </p></li> <li> <a href="parcours/{nom}.html"><p>En savoir plus ...</p></a></li> </ul>
+        <h3><xsl:value-of select="./nom"/> : </h3>
+				<p><xsl:value-of select="./description"/> </p><a href="parcours/{nom}.html"><p>En savoir plus ...</p></a>
          </xsl:for-each>
-		</ul>
-
+    </div>
+    </div>
     </body>
     </html>
 

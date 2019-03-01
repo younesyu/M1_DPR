@@ -54,9 +54,11 @@
 		<html>
     <head>
     <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="../../css/style.css" />
     <link rel="stylesheet" type="text/css" href="../../css/descr.css" />
     </head>
     <body>
+      <xsl:copy-of select="$menuLv1"/>
       <h2 id="title">
         <xsl:value-of select="nom"/>
       </h2>
@@ -74,7 +76,7 @@
         <br />
         <h3>Intervenants : </h3> 
         <xsl:for-each select="./ref-intervenant">
-                 <a href="../intervenants/{id(./@ref)/nom}.html"><xsl:value-of select="id(./@ref)/nom"/> </a>>>>>;
+                 <a href="../intervenants/{id(./@ref)/nom}.html"><xsl:value-of select="id(./@ref)/nom"/> </a>;
          </xsl:for-each>
         <br />
         </div>
