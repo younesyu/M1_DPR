@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
+<!ELEMENT p           (#PCDATA|p|ul|li|b|i|t)* >
+<!ELEMENT ul           (#PCDATA|p|ul|li|b|i|t)* >
+<!ELEMENT li           (#PCDATA|p|ul|li|b|i|t)* >
+<!ELEMENT b          (#PCDATA|p|ul|li|b|i|t)* >
+<!ELEMENT i           (#PCDATA|p|ul|li|b|i|t)* >
+<!ELEMENT t           (#PCDATA|p|ul|li|b|i|t)* >
+<!ELEMENT ol           (#PCDATA|p|ul|li|b|i|t)* >
+
 <!ENTITY campus "Luminy">
 <!ENTITY campus2 "Saint-Jerome">
 
@@ -13,12 +21,14 @@
           "ref IDREF #REQUIRED">
 
 <!ELEMENT master        (intervenant*, parcours*, semestre*, unite*)>
+<!ATTLIST master xmlns:xsi CDATA #IMPLIED 
+					xsi:noNamespaceSchemaLocation CDATA #IMPLIED >
 
 <!ELEMENT parcours         (nom, responsable+, description, debouche*, ref-semestre*)>
 <!ELEMENT responsable           EMPTY>
 <!ATTLIST responsable %ref;>
 <!ELEMENT debouche           (#PCDATA)>
-<!ELEMENT description           (#PCDATA)>
+<!ELEMENT description           (#PCDATA|p|ul|li|b|i|t|ol)* >
 <!ELEMENT ref-semestre EMPTY>
 <!ATTLIST ref-semestre ref IDREF #REQUIRED>
 
@@ -29,12 +39,12 @@
 <!ATTLIST ref-unite %ref;>
 <!ATTLIST semestre %id;>
 
-<!ELEMENT unite         (nom, credit, resume, plan, lieu, ref-intervenant+)>
+<!ELEMENT unite         (nom, credit, resume, plan, lieu*, ref-intervenant*)>
 <!ATTLIST unite %id;>
 <!ELEMENT nom           (#PCDATA)>
 <!ELEMENT credit        (#PCDATA)>
-<!ELEMENT resume        (#PCDATA)>
-<!ELEMENT plan          (chapitre*)>
+<!ELEMENT resume        (#PCDATA|p|ul|li|b|i|t|ol)* >
+<!ELEMENT plan          (#PCDATA|p|ul|li|b|i|t|ol)*>
 <!ELEMENT lieu          (#PCDATA)>
 <!ELEMENT ref-intervenant EMPTY>
 <!ATTLIST ref-intervenant %ref;>
@@ -46,3 +56,4 @@
 <!ELEMENT site      (#PCDATA)>
 
 <!ELEMENT chapitre      (#PCDATA)>
+

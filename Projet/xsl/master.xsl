@@ -39,7 +39,6 @@
          </xsl:for-each>
 		</ul>
 
-		<p>Liste des intervenants </p>
     </body>
     </html>
 
