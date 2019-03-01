@@ -32,19 +32,6 @@
       <h1 id="title">Liste des intervenants</h1>
       <div class="container">
         <xsl:apply-templates select="//intervenant" />
-        <xsl:for-each select="//intervenant">      
-              <xsl:result-document href="./intervenants/{./nom}.html">
-                <div class="intervenant">
-                  <h2>
-                    <xsl:value-of select="nom"/>
-                  </h2>
-                  <p>
-                    email : <xsl:value-of select="mail"/>  <br />   
-                    site : <xsl:value-of select="site"/>   <br /> 
-                  </p>
-                </div>
-              </xsl:result-document>
-          </xsl:for-each>
       </div>
 	</body>
   </html>

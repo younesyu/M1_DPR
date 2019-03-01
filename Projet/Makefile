@@ -7,8 +7,8 @@ xsd :
 	xmllint --schema master.xsd master.xml --noout
 
 web : 
-	mkdir -p xsl/www
-	java -jar saxon.jar -xsl:xsl/master.xsl master.xml
+	mkdir -p www
+	java -jar saxon.jar -xsl:xsl/master.xsl master.xml -o:www/index.html
 
 tidy :
 	
