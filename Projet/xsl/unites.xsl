@@ -99,7 +99,6 @@
       <br />
     </p>
     </div>
-    <xsl:apply-templates select="./plan" /> 
   </xsl:template>
 
   <xsl:template match="ref-intervenant">
