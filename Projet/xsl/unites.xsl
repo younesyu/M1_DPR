@@ -16,7 +16,7 @@
 	<html>
   <head>
   <meta charset="utf-8"/>
-  <link rel="stylesheet" type="text/css" href="../xsl/css/descr.css" />
+  <link rel="stylesheet" type="text/css" href="../xsl/css/main.css" />
   <link rel="stylesheet" type="text/css" href="../xsl/css/style.css" />
   </head>
   <body>
@@ -39,7 +39,7 @@
     <head>
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="../../xsl/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="../../xsl/css/descr.css" />
+    <link rel="stylesheet" type="text/css" href="../../xsl/css/main.css" />
     </head>
     <body>
       <xsl:copy-of select="$menuLv1"/>
