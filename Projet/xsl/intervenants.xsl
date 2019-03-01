@@ -23,6 +23,7 @@
 	<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 	<html><head><meta charset="utf-8"/></head><body>
       <h1>Liste des intervenants</h1>
+       <xsl:copy-of select="$menu"/>
       <xsl:apply-templates select="//intervenant" />
 	</body></html>
     </xsl:document>
@@ -34,6 +35,7 @@
             <xsl:document href="intervenants/{./nom}.html">
 			<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 			<html><head><meta charset="utf-8"/></head><body>
+               <xsl:copy-of select="$menu"/>
               <h2>
                 <xsl:value-of select="nom"/>
               </h2>

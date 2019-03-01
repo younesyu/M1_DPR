@@ -21,6 +21,7 @@
    <h2>
     Parcours <xsl:value-of select="nom"/>
     </h2>
+     <xsl:copy-of select="$menu"/>
     <p>
       Responsable : <a href="../intervenants/{id(./responsable/@ref)/nom}.html"><xsl:value-of select="id(./responsable/@ref)/nom"/> </a> <br /> <br />  
       Description : <xsl:value-of select="description"/>   <br /> <br />   

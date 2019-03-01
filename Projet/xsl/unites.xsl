@@ -16,6 +16,7 @@
 	<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 	<html><head><meta charset="utf-8"/></head><body>
         <h1>Liste des unités d'enseignements</h1>
+         <xsl:copy-of select="$menu"/>
         <xsl:apply-templates select="//unite" />
         <xsl:for-each select="//unite">      
             <xsl:document href="./unites/{./nom}.html">
@@ -41,6 +42,7 @@
             <xsl:document href="./unites/{./nom}.html">
 		<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 		<html><head><meta charset="utf-8"/></head><body>
+               <xsl:copy-of select="$menu"/>
               <h2>
                 <xsl:value-of select="nom"/>
               </h2>
