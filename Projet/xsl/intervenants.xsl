@@ -26,7 +26,7 @@
     <title>Listes des intervenants</title>
     <meta charset="utf-8"/>
     <link rel="stylesheet" type="text/css" href="../xsl/css/style.css" />
-    <link rel="stylesheet" type="text/css" href="../xsl/css/descr.css" />
+    <link rel="stylesheet" type="text/css" href="../xsl/css/main.css" />
   </head>
   <body>
       <xsl:copy-of select="$menu"/>
@@ -40,8 +40,7 @@
                     <xsl:value-of select="nom"/>
                   </h2>
                   <p>
-                    email : <xsl:value-of select="mail"/>  <br />   
-                    site : <xsl:value-of select="site"/>   <br /> 
+                    <xsl:value-of select="mail"/>  <br />   
                   </p>
                 </div>
               </xsl:document>
@@ -61,17 +60,15 @@
       <head>
         <meta charset="utf-8"/>
         <link rel="stylesheet" type="text/css" href="../../xsl/css/style.css" />
-        <link rel="stylesheet" type="text/css" href="../../xsl/css/descr.css" />
+        <link rel="stylesheet" type="text/css" href="../../xsl/css/main.css" />
       </head>
       <body>
           <xsl:copy-of select="$menuLv1"/>
           <h1 id="title">
             <xsl:value-of select="nom"/>
           </h1>
-          <div class="info">
+          <div class="info" style="font-family: 'Courier New', Courier, monospace;">
             <xsl:value-of select="mail"/>
-            <br />   
-            <xsl:value-of select="site"/> 
           </div>
           <div class="container">
 
@@ -112,9 +109,8 @@
     <h2 id="{@id}">
       <xsl:value-of select="nom"/>
       </h2>
-      <p>
-        email : <xsl:value-of select="mail"/>  <br />   
-        site : <xsl:value-of select="site"/>   <br /> 
+      <p style="font-family: 'Courier New', Courier, monospace;">
+        <xsl:value-of select="mail"/>  <br />   
       </p>
     </div>
   </xsl:template>
