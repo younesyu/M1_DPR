@@ -16,7 +16,6 @@
 	<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 	<html><head><meta charset="utf-8"/></head><body>
         <h1>Liste des unités d'enseignements</h1>
-         <xsl:copy-of select="$menu"/>
         <xsl:apply-templates select="//unite" />
         <xsl:for-each select="//unite">      
             <xsl:document href="./unites/{./nom}.html">
@@ -27,7 +26,10 @@
               crédits : <xsl:value-of select="credit"/>  <br />   
               résumé : <xsl:value-of select="resume"/>   <br />   
               lieu : <xsl:value-of select="lieu"/>  <br />  
-              intervenants : <xsl:apply-templates select="ref-intervenant" /> 
+              intervenants :
+               <xsl:for-each select="./ref-intervenant"> 
+                 <p><a href="intervenants/{id(./@ref)/nom}.html"><xsl:value-of select="id(./@ref)/nom"/> </a></p>
+               </xsl:for-each>
             </p>
             </xsl:document>
         </xsl:for-each>
@@ -98,7 +100,7 @@
   </xsl:template>
 
   <xsl:template match="ref-intervenant">
-   <a href="intervenants/{id(@ref)/nom}.html"><xsl:value-of select="id(@ref)/nom"/> </a>&#xA0;
+   <a href="../intervenants/{id(@ref)/nom}.html"><xsl:value-of select="id(@ref)/nom"/> </a>&#xA0;
   </xsl:template>
 
 </xsl:stylesheet>
