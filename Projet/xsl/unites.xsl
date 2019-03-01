@@ -16,6 +16,7 @@
 	<xsl:text disable-output-escaping='yes'>&lt;!DOCTYPE html&gt;</xsl:text>
 	<html><head><meta charset="utf-8"/></head><body>
         <h1>Liste des unités d'enseignements</h1>
+         <xsl:copy-of select="$menu"/>
         <xsl:apply-templates select="//unite" />
         <xsl:for-each select="//unite">      
             <xsl:document href="./unites/{./nom}.html">
@@ -23,13 +24,10 @@
                 <xsl:value-of select="nom"/>
               </h2>
               <p>
-              Crédits : <xsl:value-of select="credit"/>  <br />   
-              Résumé : <xsl:value-of select="resume"/>   <br />   
-              Lieu : <xsl:value-of select="lieu"/>  <br />  
-              Intervenants :
-               <xsl:for-each select="./ref-intervenant"> 
-                 <p><a href="out/intervenants/{id(./@ref)/nom}.html"><xsl:value-of select="id(./@ref)/nom"/> </a></p>
-               </xsl:for-each>
+              crédits : <xsl:value-of select="credit"/>  <br />   
+              résumé : <xsl:value-of select="resume"/>   <br />   
+              lieu : <xsl:value-of select="lieu"/>  <br />  
+              intervenants : <xsl:apply-templates select="ref-intervenant" /> 
             </p>
             </xsl:document>
         </xsl:for-each>
@@ -91,16 +89,16 @@
     <xsl:value-of select="nom"/>
     </h2>
     <p>
-      Crédits : <xsl:value-of select="credit"/>  <br />   
-      Résumé : <xsl:value-of select="resume"/>   <br />   
-      Lieu : <xsl:value-of select="lieu"/>  <br />  
-      Intervenants : <xsl:apply-templates select="ref-intervenant" /> 
+      crédits : <xsl:value-of select="credit"/>  <br />   
+      résumé : <xsl:value-of select="resume"/>   <br />   
+      lieu : <xsl:value-of select="lieu"/>  <br />  
+      intervenants : <xsl:apply-templates select="ref-intervenant" /> 
     </p>
     <xsl:apply-templates select="./plan" /> 
   </xsl:template>
 
   <xsl:template match="ref-intervenant">
-   <a href="../out/intervenants/{id(@ref)/nom}.html"><xsl:value-of select="id(@ref)/nom"/> </a>&#xA0;
+   <a href="../intervenants/{id(@ref)/nom}.html"><xsl:value-of select="id(@ref)/nom"/> </a>&#xA0;
   </xsl:template>
 
 </xsl:stylesheet>
