@@ -12,13 +12,13 @@ web :
 
 tidy :
 	
-	./tidy -e www/*.html
+	./tidy -imq www/*.html
 	
-	./tidy -e www/unites/*.html
+	./tidy -imq www/unites/*.html
 	
-	./tidy -e www/intervenants/*.html
+	./tidy -imq www/intervenants/*.html
 	
-	./tidy -e www/parcours/*.html
+	./tidy -imq www/parcours/*.html
 	
 xq : 
 	java -cp saxon.jar net.sf.saxon.Query "-q:xq.txt" > www/xq.html
