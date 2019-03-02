@@ -9,16 +9,17 @@ xsd :
 web : 
 	mkdir -p www
 	java -jar saxon.jar -xsl:xsl/master.xsl master.xml -o:www/index.html
+	
 
 tidy :
 	
-	./tidy -e www/index.html
+	./tidy -im -asxhtml -indent www/index.html
 	
-	./tidy -e www/unites/*.html
+	./tidy -im -asxhtml -indent www/unites/*.html
 	
-	./tidy -e www/intervenants/*.html
+	./tidy -im -asxhtml -indent www/intervenants/*.html
 	
-	./tidy -e www/parcours/*.html
+	./tidy -im -asxhtml -indent www/parcours/*.html
 	
 
 xq : 
