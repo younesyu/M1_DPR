@@ -24,21 +24,6 @@
     <h1 id="title">Liste des unités d'enseignements</h1>
     <div class="container">
     <xsl:apply-templates select="//unite" />
-    <xsl:for-each select="//unite">      
-        <xsl:result-document href="./unites/{./nom}.html">
-          <div class="unite">
-          <h2>
-            <xsl:value-of select="nom"/>
-          </h2>
-          <p>
-          crédits : <xsl:value-of select="credit"/>  <br />   
-          résumé : <xsl:value-of select="resume"/>   <br />   
-          lieu : <xsl:value-of select="lieu"/>  <br />  
-          intervenants : <xsl:apply-templates select="ref-intervenant" /> 
-        </p>
-        </div>
-        </xsl:result-document>
-        </xsl:for-each>
         </div>
 	</body></html>
       </xsl:result-document>
@@ -114,7 +99,6 @@
       <br />
     </p>
     </div>
-    <xsl:apply-templates select="./plan" /> 
   </xsl:template>
 
   <xsl:template match="ref-intervenant">
