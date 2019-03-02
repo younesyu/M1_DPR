@@ -9,44 +9,33 @@ xsd :
 web : 
 	mkdir -p www
 	java -jar saxon.jar -xsl:xsl/master.xsl master.xml -o:www/index.html
-	./tidy -im www/*.html
-	./tidy -im www/unites/*.html
-	./tidy -im www/intervenants/*.html
-	./tidy -im www/parcours/*.html
-	./tidy -im -asxhtml -indent www/*.html
-	./tidy -im -asxhtml -indent www/unites/*.html
-	./tidy -im -asxhtml -indent www/intervenants/*.html
-	./tidy -im -asxhtml -indent www/parcours/*.html
 
 tidy :
 	
 	./tidy -e www/*.html
 	
-	./tidy -im -asxhtml -indent www/unites/*.html
+	./tidy -e www/unites/*.html
 	
-	./tidy -im -asxhtml -indent www/intervenants/*.html
+	./tidy -e www/intervenants/*.html
 	
-	./tidy -im -asxhtml -indent www/parcours/*.html
+	./tidy -e www/parcours/*.html
 	
 xq : 
 	java -cp saxon.jar net.sf.saxon.Query "-q:xq.txt" > www/xq.html
 
 clean : 
-	rm www/*.html
-	rm www/*/*.html
+	rm §r www
+	mkdir www
 
-all:
-	
+all:	
  
 	$(MAKE) dtd
 
- 
 	$(MAKE) xsd
 	
 	$(MAKE) web
 
 	$(MAKE) tidy
 	
-
 	$(MAKE) xq
 	
