@@ -12,7 +12,7 @@ web :
 
 tidy :
 	
-	./tidy -e www/index.html
+	./tidy -e www/*.html
 	
 	./tidy -e www/unites/*.html
 	
@@ -20,7 +20,6 @@ tidy :
 	
 	./tidy -e www/parcours/*.html
 	
-
 xq : 
 	java -cp saxon.jar net.sf.saxon.Query "-q:xq.txt" > www/xq.html
 
