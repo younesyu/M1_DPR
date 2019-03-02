@@ -9,6 +9,10 @@ xsd :
 web : 
 	mkdir -p www
 	java -jar saxon.jar -xsl:xsl/master.xsl master.xml -o:www/index.html
+	./tidy -im www/*.html
+	./tidy -im www/unites/*.html
+	./tidy -im www/intervenants/*.html
+	./tidy -im www/parcours/*.html
 	./tidy -im -asxhtml -indent www/*.html
 	./tidy -im -asxhtml -indent www/unites/*.html
 	./tidy -im -asxhtml -indent www/intervenants/*.html
